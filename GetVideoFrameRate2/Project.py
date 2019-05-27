@@ -13,6 +13,7 @@ while cap.isOpened():
     if frame_exists:
         # Current position of the video file in milliseconds or video capture timestamp
         print(cap.get(cv2.CAP_PROP_POS_MSEC)/1000)
+
         count += 1
     else:
         break

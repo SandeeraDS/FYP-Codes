@@ -1,21 +1,31 @@
 import cv2
 
-cap2 = cv2.VideoCapture('../../FYP Videos/1.mp4')
+cap = cv2.VideoCapture('../../FYP Videos/2.mp4')
 # Frame rate
-fps2 = cap2.get(cv2.CAP_PROP_FPS)
+fps = cap.get(cv2.CAP_PROP_FPS)
 
-print(fps2)
-count = 1;#frame number
-
-while(cap2.isOpened()):
-    frame_exists, curr_frame = cap2.read()
+print(fps)
+# print number of frames
+print(cap.get(cv2.CAP_PROP_FRAME_COUNT))
+# frame number
+count = 1
+frame_dict = {}
+while cap.isOpened():
+    frame_exists, curr_frame = cap.read()
     if frame_exists:
-        print(count/fps2) #get relavant time of
+
+        # store frame name(count) and frame timestamp in dictionary(key value pair)
+        frame_dict[count] = count/fps
+        # save frames in folder
+        cv2.imwrite("img/"+str(count)+".jpg", curr_frame)
         count += 1
     else:
         break
 
-cap2.release()
+cap.release()
+
+for key, value in frame_dict.items():
+    print(key, "->", value)
 
 
 
