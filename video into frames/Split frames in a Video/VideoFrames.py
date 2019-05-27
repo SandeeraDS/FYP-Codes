@@ -1,8 +1,8 @@
 import cv2
 import os
 
-cap = cv2.VideoCapture('1.mp4')
-path = 'D:/OpenCV/Scripts/Images'
+cap = cv2.VideoCapture('../../FYP Videos/1.mp4')
+# path = 'D:/OpenCV/Scripts/Images'
 
 if cap.isOpened() == False:
     print('ERROR FILE NOT FOUND OR WRONG CODEC USED!')
