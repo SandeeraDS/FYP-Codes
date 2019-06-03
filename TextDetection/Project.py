@@ -13,43 +13,37 @@ fps = cap.get(cv2.CAP_PROP_FPS)
 
 def detectText(image):
     img = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-    # 1.Edgedetection(Soble)
-    # 2.Dialation(10,1)
-    # 3.FindCountors
-    # 4.GeaomatricalConstraints
+    # 1.Edge detection(Sobel)
+    # 2.Dilation(10,1)
+    # 3.Find Contours
+    # 4.GeometricalConstraints
 
     # Sobel
-    sobely = cv2.Sobel(img, cv2.CV_8U, 0, 1, ksize=3)
+    sobel_img = cv2.Sobel(img, cv2.CV_8U, 1, 0, ksize=3)
 
-    retval, threshold = cv2.threshold(img, 100, 255, cv2.THRESH_BINARY)
+    retval, threshold = cv2.threshold(sobel_img, 100, 255, cv2.THRESH_BINARY)
 
-    # Dialtion
-    kernel = cv2.getStructuringElement(cv2.MORPH_RECT, ksize=(10, 1), anchor=(-1, -1))
-    img_dilate = cv2.morphologyEx(threshold, cv2.MORPH_DILATE, kernel, anchor=(-1, -1), iterations=1,
+    # Dilation
+    kernel = cv2.getStructuringElement(cv2.MORPH_RECT, ksize=(10, 2), anchor=(-1, -1))
+    img_dilate = cv2.morphologyEx(threshold, cv2.MORPH_DILATE, kernel, anchor=(-1, -1), iterations=2,
                                   borderType=cv2.BORDER_REFLECT, borderValue=255)
 
-
-
-    #find Contours
+    # Find Contours
     contours, hierarchy = cv2.findContours(img_dilate, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
 
     # GeaomatricalConstraints
-    List = []
+    list = []
     for contour in contours:
-        brect = cv2.boundingRect(contour)
+        brect = cv2.boundingRect(contour)  # brect = (x,y,w,h)
         ar = brect[2] / brect[3]
 
-        if brect[2] > 30 and brect[3] > 8 and brect[3] < 100:
-            List.append(brect)
+        if ar > 2 and brect[2] > 30 and brect[3] > 8 and brect[3] < 100:
+            list.append(brect)
 
-    for r in List:
+    for r in list:
         cv2.rectangle(image, (r[0], r[1]), (r[0] + r[2], r[1] + r[3]), (250, 0, 0), 2)
 
-
-
-
-
-    cv2.imshow('frame',image)
+    cv2.imshow('frame', image)
 
 
 if not cap.isOpened():
