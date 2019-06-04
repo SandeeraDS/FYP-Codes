@@ -13,17 +13,23 @@ fps = cap.get(cv2.CAP_PROP_FPS)
 
 def detectText(image):
     img = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+
+    # linear contrast stretching
+    minmax_img = cv2.normalize(img, 0, 255, norm_type=cv2.NORM_MINMAX)
+
+    # histogram equalization
+    #hist_img = cv2.equalizeHist(minmax_img)
+
     # 1.Edge detection(Sobel)
     # 2.Dilation(10,1)
     # 3.Find Contours
     # 4.GeometricalConstraints
 
     # Sobel
-    sobel_img = cv2.Sobel(img, cv2.CV_8U, 1, 0, ksize=3)
+    sobel_img = cv2.Sobel(minmax_img, cv2.CV_8U, 1, 0, ksize=3)
 
-    retval, threshold = cv2.threshold(sobel_img, 150, 255, cv2.THRESH_BINARY)
+    retval, threshold = cv2.threshold(sobel_img, 244, 255, cv2.THRESH_BINARY)
 
-    
     # Dilation
     kernel = cv2.getStructuringElement(cv2.MORPH_RECT, ksize=(10, 2), anchor=(-1, -1))
     img_dilate = cv2.morphologyEx(threshold, cv2.MORPH_DILATE, kernel, anchor=(-1, -1), iterations=2,
@@ -38,13 +44,14 @@ def detectText(image):
         brect = cv2.boundingRect(contour)  # brect = (x,y,w,h)
         ar = brect[2] / brect[3]
 
-        if ar > 2 and brect[2] > 40 and brect[3] > 17 and brect[3] < 100:
+        if ar > 2 and brect[2] > 40 and brect[3] > 16 and brect[3]<100 :
             list.append(brect)
 
     for r in list:
         cv2.rectangle(image, (r[0], r[1]), (r[0] + r[2], r[1] + r[3]), (250, 0, 0), 2)
 
     cv2.imshow('frame', image)
+    #cv2.imshow('frame2', hist_img)
 
 
 if not cap.isOpened():
