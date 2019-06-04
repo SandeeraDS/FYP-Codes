@@ -21,8 +21,9 @@ def detectText(image):
     # Sobel
     sobel_img = cv2.Sobel(img, cv2.CV_8U, 1, 0, ksize=3)
 
-    retval, threshold = cv2.threshold(sobel_img, 100, 255, cv2.THRESH_BINARY)
+    retval, threshold = cv2.threshold(sobel_img, 150, 255, cv2.THRESH_BINARY)
 
+    
     # Dilation
     kernel = cv2.getStructuringElement(cv2.MORPH_RECT, ksize=(10, 2), anchor=(-1, -1))
     img_dilate = cv2.morphologyEx(threshold, cv2.MORPH_DILATE, kernel, anchor=(-1, -1), iterations=2,
@@ -37,7 +38,7 @@ def detectText(image):
         brect = cv2.boundingRect(contour)  # brect = (x,y,w,h)
         ar = brect[2] / brect[3]
 
-        if ar > 2 and brect[2] > 30 and brect[3] > 8 and brect[3] < 100:
+        if ar > 2 and brect[2] > 40 and brect[3] > 17 and brect[3] < 100:
             list.append(brect)
 
     for r in list:
