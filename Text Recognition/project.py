@@ -3,7 +3,7 @@ import time
 import numpy as np
 
 # input video file
-cap = cv2.VideoCapture('../../FYP Videos/2.mp4')
+cap = cv2.VideoCapture('../../FYP Videos/22.mp4')
 # get frame rate
 fps = cap.get(cv2.CAP_PROP_FPS)
 
@@ -53,7 +53,8 @@ def detectText(image):
     for r in list:
         # draw region of interest
         cv2.rectangle(image, (r[0], r[1]), (r[0] + r[2], r[1] + r[3]), (250, 0, 0), 2)
-       
+        cropped_img = image[r[1]:r[1]+r[3],r[0]:r[0]+r[2]]
+        cv2.imwrite(str(r)+ '.jpg', cropped_img)
 
     cv2.imshow('frame', image)
     # cv2.imshow('frame2', img_dilate)

@@ -43,17 +43,16 @@ def detectText(image):
 
     # GeaomatricalConstraints
     list = []
-    for contour in contours:
-        brect = cv2.boundingRect(contour)  # brect = (x,y,w,h)
+    for i in range(len(contours)):
+        brect = cv2.boundingRect(contours[i])  # brect = (x,y,w,h)
         ar = brect[2] / brect[3]
 
         if ar > 2 and brect[2] > 40 and brect[3] > 16 and brect[3] < 100:
             list.append(brect)
+            cv2.drawContours(image, contours, i, (0, 255, 0), 2)
 
-    for r in list:
-        # draw region of interest
-        cv2.rectangle(image, (r[0], r[1]), (r[0] + r[2], r[1] + r[3]), (250, 0, 0), 2)
-       
+    # for r in list:
+    #     cv2.rectangle(image, (r[0], r[1]), (r[0] + r[2], r[1] + r[3]), (250, 0, 0), 2)
 
     cv2.imshow('frame', image)
     # cv2.imshow('frame2', img_dilate)
