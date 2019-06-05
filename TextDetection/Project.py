@@ -18,7 +18,7 @@ def detectText(image):
     minmax_img = cv2.normalize(img, 0, 255, norm_type=cv2.NORM_MINMAX)
 
     # histogram equalization
-    #hist_img = cv2.equalizeHist(minmax_img)
+    # hist_img = cv2.equalizeHist(minmax_img)
 
     # 1.Edge detection(Sobel)
     # 2.Dilation(10,1)
@@ -26,9 +26,12 @@ def detectText(image):
     # 4.GeometricalConstraints
 
     # Sobel
-    sobel_img = cv2.Sobel(minmax_img, cv2.CV_8U, 1, 0, ksize=3)
+    sobel_img_x = cv2.Sobel(minmax_img, cv2.CV_8U, 1, 0, ksize=3)
+    # sobel_img_y = cv2.Sobel(minmax_img, cv2.CV_8U, 0, 1, ksize=3)
 
-    retval, threshold = cv2.threshold(sobel_img, 244, 255, cv2.THRESH_BINARY)
+    # blened_img = cv2.addWeighted(src1=sobel_img_x, alpha=0.5, src2=sobel_img_y, beta=0.5, gamma=0)
+
+    retval, threshold = cv2.threshold(sobel_img_x, 244, 255, cv2.THRESH_BINARY)
 
     # Dilation
     kernel = cv2.getStructuringElement(cv2.MORPH_RECT, ksize=(10, 2), anchor=(-1, -1))
@@ -44,14 +47,14 @@ def detectText(image):
         brect = cv2.boundingRect(contour)  # brect = (x,y,w,h)
         ar = brect[2] / brect[3]
 
-        if ar > 2 and brect[2] > 40 and brect[3] > 16 and brect[3]<100 :
+        if ar > 2 and brect[2] > 40 and brect[3] > 16 and brect[3] < 100:
             list.append(brect)
 
     for r in list:
         cv2.rectangle(image, (r[0], r[1]), (r[0] + r[2], r[1] + r[3]), (250, 0, 0), 2)
 
     cv2.imshow('frame', image)
-    #cv2.imshow('frame2', hist_img)
+    # cv2.imshow('frame2', img_dilate)
 
 
 if not cap.isOpened():
