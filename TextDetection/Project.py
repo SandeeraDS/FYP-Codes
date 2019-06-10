@@ -3,7 +3,7 @@ import time
 import numpy as np
 
 # input video file
-cap = cv2.VideoCapture('../../FYP Videos/2.mp4')
+cap = cv2.VideoCapture('../../FYP Videos/222.mp4')
 # get frame rate
 fps = cap.get(cv2.CAP_PROP_FPS)
 
@@ -66,7 +66,7 @@ while cap.isOpened():
     ret, frame = cap.read()
 
     if ret:
-        time.sleep(1 / fps)  # to run according to frame rate otherwise it go on highSpeed
+        # time.sleep(1 / fps)  # to run according to frame rate otherwise it go on highSpeed
         # convert BGR to GrayScale
         detectText(frame)
 

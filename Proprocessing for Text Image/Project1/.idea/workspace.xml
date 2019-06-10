@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="673b5a8e-f662-40be-b4d5-27051dc768d6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Project1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OCR Tests/ocr_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../OCR Tests/ocr_1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../OCR Tests/ocr_1/project.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../OCR Tests/ocr_1/project.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Text Recognition/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Text Recognition/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../TextDetection/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../TextDetection/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../TextDetection/Project.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../TextDetection/Project.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../video into frames/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../video into frames/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,8 +29,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Test2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="980">
-              <caret line="56" selection-start-line="56" selection-end-line="56" />
+            <state relative-caret-position="120">
+              <caret line="14" column="39" lean-forward="true" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -101,6 +97,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -189,18 +186,19 @@
       <workItem from="1559965565698" duration="23767000" />
       <workItem from="1560008992131" duration="289000" />
       <workItem from="1560154998279" duration="399000" />
+      <workItem from="1560157650178" duration="794000" />
+      <workItem from="1560180955898" duration="1149000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24455000" />
+    <option name="totallyTimeSpent" value="26398000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.25670242" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.26340482" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -242,8 +240,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Test2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="980">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        <state relative-caret-position="120">
+          <caret line="14" column="39" lean-forward="true" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
