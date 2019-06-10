@@ -56,7 +56,7 @@ def detectText(image):
        
 
     cv2.imshow('frame', image)
-    # cv2.imshow('frame2', img_dilate)
+    cv2.imshow('frame2', img_dilate)
 
 
 if not cap.isOpened():
