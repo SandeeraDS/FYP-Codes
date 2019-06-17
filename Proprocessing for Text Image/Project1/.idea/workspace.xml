@@ -2,9 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="673b5a8e-f662-40be-b4d5-27051dc768d6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Get Different Frames/01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Get Different Frames/01/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Get Different Frames/01/Project.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Get Different Frames/01/Project.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Get Different Frames/01/image/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../Get Different Frames/01/image/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Get Different Frames/01/image/144.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../Get Different Frames/01/image/144.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Get Different Frames/01/image/147.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../Get Different Frames/01/image/147.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Get Different Frames/01/image/149.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../Get Different Frames/01/image/149.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Get Different Frames/01/image/152.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../Get Different Frames/01/image/152.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Get Different Frames/01/image/1757.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../Get Different Frames/01/image/1757.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Get Different Frames/01/image/1758.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../Get Different Frames/01/image/1758.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Get Different Frames/01/image/2044.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../Get Different Frames/01/image/2044.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Get Different Frames/01/image/2047.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../Get Different Frames/01/image/2047.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Get Different Frames/01/image/3204.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../Get Different Frames/01/image/3204.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Get Different Frames/01/image/3207.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../Get Different Frames/01/image/3207.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Get Different Frames/01/image/3586.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../Get Different Frames/01/image/3586.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Get Different Frames/01/image/3587.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../Get Different Frames/01/image/3587.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Get Different Frames/01/image/3588.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../Get Different Frames/01/image/3588.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Get Different Frames/01/image/362.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../Get Different Frames/01/image/362.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Get Different Frames/01/image/4228.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../Get Different Frames/01/image/4228.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Get Different Frames/01/image/4445.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../Get Different Frames/01/image/4445.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Get Different Frames/01/image/4446.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../Get Different Frames/01/image/4446.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Get Different Frames/01/image/4853.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../Get Different Frames/01/image/4853.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Get Different Frames/01/image/6213.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Get Different Frames/01/image/6631.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Get Different Frames/01/image/6992.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Get Different Frames/01/image/6994.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Get Different Frames/01/image/7676.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Get Different Frames/01/image/8568.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Get Different Frames/01/image/8569.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Get Different Frames/01/image/860.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../Get Different Frames/01/image/860.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Get Different Frames/01/image/8777.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Get Different Frames/01/image/8778.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Get Different Frames/01/image/8779.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Get Different Frames/01/image/8780.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Get Different Frames/01/image/8781.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Get Different Frames/01/image/8782.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Get Different Frames/01/image/8783.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../TextDetection/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../TextDetection/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TextDetection/Project.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../TextDetection/Project.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,8 +64,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Test2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="14" column="39" lean-forward="true" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+            <state relative-caret-position="20">
+              <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -188,17 +223,20 @@
       <workItem from="1560154998279" duration="399000" />
       <workItem from="1560157650178" duration="794000" />
       <workItem from="1560180955898" duration="1149000" />
+      <workItem from="1560212976506" duration="147000" />
+      <workItem from="1560676969889" duration="11000" />
+      <workItem from="1560772559778" duration="60000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26398000" />
+    <option name="totallyTimeSpent" value="26616000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.26340482" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.27345845" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -240,8 +278,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Test2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="14" column="39" lean-forward="true" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+        <state relative-caret-position="20">
+          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
