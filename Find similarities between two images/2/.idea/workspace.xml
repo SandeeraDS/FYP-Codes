@@ -2,42 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06227705-8749-4b91-9122-5735148de90e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../01/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.py" beforeDir="false" afterPath="$PROJECT_DIR$/project.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Get Different Frames/01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Get Different Frames/01/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Get Different Frames/01/Project.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Get Different Frames/01/Project.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Get Different Frames/01/image/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../Get Different Frames/01/image/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Get Different Frames/01/image/144.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../Get Different Frames/01/image/144.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Get Different Frames/01/image/147.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../Get Different Frames/01/image/147.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Get Different Frames/01/image/149.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../Get Different Frames/01/image/149.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Get Different Frames/01/image/152.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../Get Different Frames/01/image/152.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Get Different Frames/01/image/1757.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../Get Different Frames/01/image/1757.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Get Different Frames/01/image/1758.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../Get Different Frames/01/image/1758.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Get Different Frames/01/image/2044.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../Get Different Frames/01/image/2044.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Get Different Frames/01/image/2047.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../Get Different Frames/01/image/2047.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Get Different Frames/01/image/3204.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../Get Different Frames/01/image/3204.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Get Different Frames/01/image/3207.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../Get Different Frames/01/image/3207.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Get Different Frames/01/image/3586.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../Get Different Frames/01/image/3586.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Get Different Frames/01/image/3587.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../Get Different Frames/01/image/3587.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Get Different Frames/01/image/3588.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../Get Different Frames/01/image/3588.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Get Different Frames/01/image/362.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../Get Different Frames/01/image/362.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Get Different Frames/01/image/4228.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../Get Different Frames/01/image/4228.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Get Different Frames/01/image/4445.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../Get Different Frames/01/image/4445.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Get Different Frames/01/image/4446.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../Get Different Frames/01/image/4446.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Get Different Frames/01/image/4853.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../Get Different Frames/01/image/4853.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Get Different Frames/01/image/6213.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Get Different Frames/01/image/6631.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Get Different Frames/01/image/6992.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Get Different Frames/01/image/6994.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Get Different Frames/01/image/7676.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Get Different Frames/01/image/8568.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Get Different Frames/01/image/8569.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Get Different Frames/01/image/860.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../Get Different Frames/01/image/860.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Get Different Frames/01/image/8777.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Get Different Frames/01/image/8778.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Get Different Frames/01/image/8779.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Get Different Frames/01/image/8780.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Get Different Frames/01/image/8781.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Get Different Frames/01/image/8782.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Get Different Frames/01/image/8783.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Proprocessing for Text Image/Project1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Proprocessing for Text Image/Project1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../TextDetection/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../TextDetection/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -52,8 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/project.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+            <state relative-caret-position="-394">
+              <caret line="28" selection-start-line="28" selection-start-column="2" selection-end-line="29" selection-end-column="36" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -90,9 +59,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="60" />
-    <option name="y" value="215" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1326" />
+    <option name="y" value="22" />
     <option name="width" value="1750" />
     <option name="height" value="980" />
   </component>
@@ -119,6 +88,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -184,23 +154,26 @@
       <workItem from="1560264133657" duration="1189000" />
       <workItem from="1560495320502" duration="1855000" />
       <workItem from="1560676982494" duration="12434000" />
+      <workItem from="1560774212909" duration="2191000" />
+      <workItem from="1560996921385" duration="5669000" />
+      <workItem from="1561006231880" duration="5486000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15478000" />
+    <option name="totallyTimeSpent" value="28824000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="1061" y="18" width="1400" height="784" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25670242" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29657227" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32956153" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3568147" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -221,13 +194,13 @@
     <option name="version" value="1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/2$project.coverage" NAME="project Coverage Results" MODIFIED="1560698746414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/2$project.coverage" NAME="project Coverage Results" MODIFIED="1561018051136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/project.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        <state relative-caret-position="-394">
+          <caret line="28" selection-start-line="28" selection-start-column="2" selection-end-line="29" selection-end-column="36" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>

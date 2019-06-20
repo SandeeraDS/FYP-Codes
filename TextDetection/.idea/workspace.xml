@@ -2,44 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48a9965e-14b6-44d5-9be0-b32689fce885" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Get Different Frames/01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Get Different Frames/01/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Get Different Frames/01/Project.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Get Different Frames/01/Project.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Get Different Frames/01/image/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Get Different Frames/01/image/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Get Different Frames/01/image/144.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Get Different Frames/01/image/144.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Get Different Frames/01/image/147.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Get Different Frames/01/image/147.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Get Different Frames/01/image/149.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Get Different Frames/01/image/149.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Get Different Frames/01/image/152.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Get Different Frames/01/image/152.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Get Different Frames/01/image/1757.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Get Different Frames/01/image/1757.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Get Different Frames/01/image/1758.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Get Different Frames/01/image/1758.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Get Different Frames/01/image/2044.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Get Different Frames/01/image/2044.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Get Different Frames/01/image/2047.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Get Different Frames/01/image/2047.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Get Different Frames/01/image/3204.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Get Different Frames/01/image/3204.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Get Different Frames/01/image/3207.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Get Different Frames/01/image/3207.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Get Different Frames/01/image/3586.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Get Different Frames/01/image/3586.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Get Different Frames/01/image/3587.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Get Different Frames/01/image/3587.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Get Different Frames/01/image/3588.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Get Different Frames/01/image/3588.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Get Different Frames/01/image/362.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Get Different Frames/01/image/362.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Get Different Frames/01/image/4228.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Get Different Frames/01/image/4228.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Get Different Frames/01/image/4445.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Get Different Frames/01/image/4445.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Get Different Frames/01/image/4446.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Get Different Frames/01/image/4446.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Get Different Frames/01/image/4853.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Get Different Frames/01/image/4853.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Get Different Frames/01/image/6213.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Get Different Frames/01/image/6631.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Get Different Frames/01/image/6992.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Get Different Frames/01/image/6994.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Get Different Frames/01/image/7676.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Get Different Frames/01/image/8568.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Get Different Frames/01/image/8569.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Get Different Frames/01/image/860.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Get Different Frames/01/image/860.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Get Different Frames/01/image/8777.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Get Different Frames/01/image/8778.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Get Different Frames/01/image/8779.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Get Different Frames/01/image/8780.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Get Different Frames/01/image/8781.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Get Different Frames/01/image/8782.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Get Different Frames/01/image/8783.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Find similarities between two images/2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Find similarities between two images/2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Find similarities between two images/2/project.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Find similarities between two images/2/project.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Proprocessing for Text Image/Project1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Proprocessing for Text Image/Project1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +17,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Project.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
+            <state relative-caret-position="-21">
               <caret line="38" column="81" selection-start-line="36" selection-start-column="2" selection-end-line="38" selection-end-column="81" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
@@ -91,7 +56,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="60" />
     <option name="y" value="215" />
     <option name="width" value="1750" />
@@ -218,16 +183,18 @@
       <workItem from="1560677365078" duration="479000" />
       <workItem from="1560697534091" duration="739000" />
       <workItem from="1560772490652" duration="126000" />
+      <workItem from="1560773060275" duration="599000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53718000" />
+    <option name="totallyTimeSpent" value="54317000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3016086" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30563003" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -284,7 +251,7 @@
     <entry file="file://$USER_HOME$/Downloads/Compressed/text-detection-master/text-detection-master/TextDetect.py" />
     <entry file="file://$PROJECT_DIR$/Project.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
+        <state relative-caret-position="-21">
           <caret line="38" column="81" selection-start-line="36" selection-start-column="2" selection-end-line="38" selection-end-column="81" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />

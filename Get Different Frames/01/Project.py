@@ -32,7 +32,7 @@ def detectText(image, number):
                                   borderType=cv2.BORDER_REFLECT, borderValue=255)
 
     # Find Contours
-    contours, hierarchy = cv2.findContours(img_dilate, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+    im2,contours, hierarchy = cv2.findContours(img_dilate, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
 
     # GeaomatricalConstraints
     list = []
@@ -52,36 +52,36 @@ def detectText(image, number):
     global previous_image
     global firstFrame
 
-    if max_width > 200:
+    # if max_width > 200:
+    #
+    #     if not firstFrame:
+    #         firstFrame = True
+    #         # crop_img = threshold[0:height, max_width_x:max_width_x + max_width]
+    #         crop_img = img[0:height, max_width_x:max_width_x + max_width]
+    #
+    #         previous_image = crop_img
+    #         cv2.imwrite("image/" + str(count) + ".jpg", crop_img)
+    #     else:
+    #         crop_img = img[0:height, max_width_x:max_width_x + max_width]
+    #
+    #         if previous_image.shape == crop_img.shape:
+    #             different = cv2.subtract(src1=previous_image, src2=crop_img)
+    #             if cv2.countNonZero(different) != 0:
+    #                 cv2.imwrite("image/" + str(count) + ".jpg", crop_img)
+    #                 previous_image = crop_img
+    #                 print("pixel Changed")
+    #                 cv2.imshow('frame', crop_img)
+    #         else:
+    #             cv2.imwrite("image/" + str(count) + ".jpg", crop_img)
+    #             print("size Changed")
+    #             previous_image = crop_img
+    #             cv2.imshow('frame', crop_img)
 
-        if not firstFrame:
-            firstFrame = True
-            # crop_img = threshold[0:height, max_width_x:max_width_x + max_width]
-            crop_img = img[0:height, max_width_x:max_width_x + max_width]
+    for r in list:
+        # draw region of interest
+        cv2.rectangle(image, (r[0], r[1]), (r[0] + r[2], r[1] + r[3]), (250, 0, 0), 2)
 
-            previous_image = crop_img
-            cv2.imwrite("image/" + str(count) + ".jpg", crop_img)
-        else:
-            crop_img = img[0:height, max_width_x:max_width_x + max_width]
-
-            if previous_image.shape == crop_img.shape:
-                different = cv2.subtract(src1=previous_image, src2=crop_img)
-                if cv2.countNonZero(different) != 0:
-                    cv2.imwrite("image/" + str(count) + ".jpg", crop_img)
-                    previous_image = crop_img
-                    print("pixel Changed")
-                    cv2.imshow('frame', crop_img)
-            else:
-                cv2.imwrite("image/" + str(count) + ".jpg", crop_img)
-                print("size Changed")
-                previous_image = crop_img
-                cv2.imshow('frame', crop_img)
-
-    # for r in list:
-    #     # draw region of interest
-    #     cv2.rectangle(image, (r[0], r[1]), (r[0] + r[2], r[1] + r[3]), (250, 0, 0), 2)
-
-    # cv2.imshow('frame', image)
+    cv2.imshow('frame', image)
     # cv2.imshow('frame2', img_dilate)
 
 
