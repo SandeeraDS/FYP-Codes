@@ -1,9 +1,7 @@
 import cv2
-import time
-import numpy as np
 
 # input video file
-cap = cv2.VideoCapture('../../../FYP Videos/2.mp4')
+cap = cv2.VideoCapture('../../../FYP Videos/114.mp4')
 # get frame rate
 fps = cap.get(cv2.CAP_PROP_FPS)
 
@@ -64,7 +62,7 @@ def detectText(image, number):
             retval, crop_img = cv2.threshold(crop_img, 150, 255, cv2.THRESH_BINARY)
             previous_image = crop_img
             cv2.imwrite("image/" + str(count) + "-start" + ".jpg", crop_img)
-            cv2.imshow("sizeChange", img)
+            cv2.imshow("Changed", img)
 
         else:
             crop_img_gray = img[0:height, max_width_x:max_width_x + max_width]
@@ -73,48 +71,65 @@ def detectText(image, number):
             if previous_image.shape == crop_img.shape:
                 skipCountByPixel += 1
                 if skipCountByPixel > 40:
-
                     skipCountByPixel = 0
                     skipCountBySize = 0
 
-                    sift = cv2.xfeatures2d.SIFT_create()
+                    previous_image_NoneZeroPixel = cv2.countNonZero(previous_image);
+                    current_image_NoneZeroPixel = cv2.countNonZero(crop_img)
 
-                    # find the keypoints and descriptors with SIFT
-                    kp1, des1 = sift.detectAndCompute(previous_image, None)
-                    kp2, des2 = sift.detectAndCompute(crop_img, None)
+                    height1, width1 = previous_image.shape
+                    height2, width2 = crop_img.shape
 
-                    # FLANN parameters
-                    FLANN_INDEX_KDTREE = 0
-                    index_params = dict(algorithm=FLANN_INDEX_KDTREE, trees=5)
-                    search_params = dict()
+                    previous_image_ZeroPixel = height1 * width1 - previous_image_NoneZeroPixel
+                    current_image_ZeroPixel = height2 * width2 - current_image_NoneZeroPixel
 
-                    flann = cv2.FlannBasedMatcher(index_params, search_params)
+                    x = previous_image_ZeroPixel + 100
+                    y = previous_image_ZeroPixel - 100
 
-                    matches = flann.knnMatch(des1, des2, k=2)
-
-                    good_points = []
-
-                    # ratio test
-                    for match1, match2 in matches:
-                        if match1.distance < 0.2 * match2.distance:
-                            good_points.append(match1)
-
-                    goodPointRatio = (len(matches) * 50) / 100
-
-                    if goodPointRatio > len(good_points):
+                    if x < current_image_ZeroPixel or y > current_image_ZeroPixel:
                         previous_image = crop_img
+                        cv2.imshow("Changed", img)
                         cv2.imwrite("image/" + str(count) + "-Pixel" + ".jpg", img)
-                        cv2.imshow("PixelChange", img)
 
+                    # sift = cv2.xfeatures2d.SIFT_create()
+                    #
+                    # # find the keypoints and descriptors with SIFT
+                    # kp1, des1 = sift.detectAndCompute(previous_image, None)
+                    # kp2, des2 = sift.detectAndCompute(crop_img, None)
+                    #
+                    # # FLANN parameters
+                    # FLANN_INDEX_KDTREE = 0
+                    # index_params = dict(algorithm=FLANN_INDEX_KDTREE, trees=5)
+                    # search_params = dict()
+                    #
+                    # flann = cv2.FlannBasedMatcher(index_params, search_params)
+                    #
+                    # matches = flann.knnMatch(des1, des2, k=2)
+                    #
+                    # good_points = []
+                    #
+                    # # ratio test
+                    # for match1, match2 in matches:
+                    #     if match1.distance < 0.2 * match2.distance:
+                    #         good_points.append(match1)
+                    #
+                    # goodPointRatio = (len(matches) * 40) / 100
+                    #
+                    # if goodPointRatio > len(good_points):
+                    #     previous_image = crop_img
+                    #     cv2.imwrite("image/" + str(count) + "-Pixel" + ".jpg", img)
+                    #     cv2.imshow("PixelChange", img)
+
+                    # cv2.imshow("PixelChange", crop_img)
 
             else:
                 skipCountBySize += 1
-                if skipCountBySize > 25:
+                if skipCountBySize > 40:
                     skipCountBySize = 0
                     skipCountByPixel = 0
                     previous_image = crop_img
                     cv2.imwrite("image/" + str(count) + "-Size" + ".jpg", img)
-                    cv2.imshow("sizeChange", img)
+                    cv2.imshow("Changed", img)
 
     cv2.imshow('frame', image)
     # cv2.imshow('frame2', img_dilate)

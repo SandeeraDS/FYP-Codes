@@ -3,7 +3,7 @@ import time
 import numpy as np
 
 # input video file
-cap = cv2.VideoCapture('../../FYP Videos/222.mp4')
+cap = cv2.VideoCapture('../../FYP Videos/2.mp4')
 # get frame rate
 fps = cap.get(cv2.CAP_PROP_FPS)
 
@@ -39,7 +39,7 @@ def detectText(image):
                                   borderType=cv2.BORDER_REFLECT, borderValue=255)
 
     # Find Contours
-    contours, hierarchy = cv2.findContours(img_dilate, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+    im2,contours, hierarchy = cv2.findContours(img_dilate, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
 
     # GeaomatricalConstraints
     list = []
@@ -56,7 +56,7 @@ def detectText(image):
        
 
     cv2.imshow('frame', image)
-    cv2.imshow('frame2', img_dilate)
+    # cv2.imshow('frame2', img_dilate)
 
 
 if not cap.isOpened():
