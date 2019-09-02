@@ -16,6 +16,7 @@ def detectText(image):
 
     # linear contrast stretching
     minmax_img = cv2.normalize(img, 0, 255, norm_type=cv2.NORM_MINMAX)
+    #img_Blurred = cv2.GaussianBlur(minmax_img, (3, 3), 0)
 
     # histogram equalization
     # hist_img = cv2.equalizeHist(minmax_img)
@@ -32,7 +33,6 @@ def detectText(image):
     # blened_img = cv2.addWeighted(src1=sobel_img_x, alpha=0.5, src2=sobel_img_y, beta=0.5, gamma=0)
 
     retval, threshold = cv2.threshold(sobel_img_x, 244, 255, cv2.THRESH_BINARY)
-
     # Dilation
     kernel = cv2.getStructuringElement(cv2.MORPH_RECT, ksize=(10, 2), anchor=(-1, -1))
     img_dilate = cv2.morphologyEx(threshold, cv2.MORPH_DILATE, kernel, anchor=(-1, -1), iterations=2,
