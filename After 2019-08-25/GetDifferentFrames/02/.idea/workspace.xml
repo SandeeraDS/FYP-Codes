@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f9781869-ce38-4ea9-98e8-8db7321f2ef3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/02.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/GL_62M_7RDX.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../TextDetection/Project.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TextDetection/Project.py" afterDir="false" />
-    </list>
+    <list default="true" id="f9781869-ce38-4ea9-98e8-8db7321f2ef3" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +13,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/project.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-820">
-              <caret line="39" column="27" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="27" />
+            <state relative-caret-position="-340">
+              <caret line="42" column="26" lean-forward="true" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -194,23 +187,22 @@
       <workItem from="1567082866759" duration="598000" />
       <workItem from="1567093512067" duration="348000" />
       <workItem from="1567412198159" duration="629000" />
-      <workItem from="1567419040949" duration="12368000" />
+      <workItem from="1567419040949" duration="12977000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44976000" />
+    <option name="totallyTimeSpent" value="45585000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28954422" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35643566" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35643566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -259,8 +251,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-820">
-          <caret line="39" column="27" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="27" />
+        <state relative-caret-position="-340">
+          <caret line="42" column="26" lean-forward="true" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
         </state>
       </provider>
     </entry>
