@@ -1,0 +1,12 @@
+------------------------------------------------
+
+NOUN STRINGS
+
+An uncertainty management
+system
+
+A system for managing
+uncertainty
+
+------------------------------------------------
+

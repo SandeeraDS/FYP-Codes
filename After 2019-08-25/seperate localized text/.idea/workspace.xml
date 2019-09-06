@@ -2,7 +2,59 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48a9965e-14b6-44d5-9be0-b32689fce885" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../GetDifferentFrames/02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GetDifferentFrames/02/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetDifferentFrames/02/image/1001-Size.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetDifferentFrames/02/image/144-start.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetDifferentFrames/02/image/1716-Size.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetDifferentFrames/02/image/185-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetDifferentFrames/02/image/1917-Size.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetDifferentFrames/02/image/2122-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetDifferentFrames/02/image/2647-Size.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetDifferentFrames/02/image/2811-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetDifferentFrames/02/image/2910-Size.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetDifferentFrames/02/image/2961-Size.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetDifferentFrames/02/image/3160-Size.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetDifferentFrames/02/image/347-Size.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetDifferentFrames/02/image/3563-Size.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetDifferentFrames/02/image/4457-Size.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetDifferentFrames/02/image/4524-Size.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetDifferentFrames/02/image/457-Size.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetDifferentFrames/02/image/4660-Size.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetDifferentFrames/02/image/4890-Size.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetDifferentFrames/02/image/5115-Size.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetDifferentFrames/02/image/597-Size.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextAsaString/ocr_1/project.py" beforeDir="false" afterPath="$PROJECT_DIR$/../TextAsaString/ocr_1/project.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../video into frames/Split frames in a Video/VideoFrames.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../video into frames/Split frames in a Video/VideoFrames.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +67,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Project.py">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="447">
+              <caret line="57" column="86" selection-start-line="57" selection-start-column="7" selection-end-line="57" selection-end-column="86" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../GetDifferentFrames/02/project.py">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="100">
-              <caret line="75" selection-start-line="75" selection-end-line="75" />
+              <caret line="7" column="50" lean-forward="true" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Table Detection/Test_01 - table with borders/Project.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -25,10 +101,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../Table Detection/Test_02- table without borders/Project.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="12" column="66" lean-forward="true" selection-start-line="12" selection-start-column="66" selection-end-line="12" selection-end-column="66" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../TextAsaString/ocr_1/project.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+            <state relative-caret-position="27">
+              <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -54,6 +142,9 @@
         <option value="$USER_HOME$/Downloads/Compressed/text-detection-master/text-detection-master/TextDetect.py" />
         <option value="$PROJECT_DIR$/Project.py" />
         <option value="$PROJECT_DIR$/../TextAsaString/ocr_1/project.py" />
+        <option value="$PROJECT_DIR$/../GetDifferentFrames/02/project.py" />
+        <option value="$PROJECT_DIR$/../TextDetection/Project.py" />
+        <option value="$PROJECT_DIR$/../Table Detection/Test_01 - table with borders/Project.py" />
       </list>
     </option>
   </component>
@@ -68,8 +159,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="35" />
-    <option name="y" value="45" />
+    <option name="x" value="-280" />
+    <option name="y" value="70" />
     <option name="width" value="1940" />
     <option name="height" value="1050" />
   </component>
@@ -82,7 +173,17 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="seperate localized text" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seperate localized text" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -105,8 +206,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.project">
-    <configuration name="Project" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.Project (2)">
+    <configuration name="Project (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TextDetection" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -114,12 +215,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../TextDetection" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../TextDetection/Project.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -128,7 +229,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="TextDetect" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Project (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TextDetection" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -136,12 +237,56 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Downloads/Compressed/text-detection-master/text-detection-master" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Table Detection/Test_01 - table with borders" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/Compressed/text-detection-master/text-detection-master/TextDetect.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Table Detection/Test_01 - table with borders/Project.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Project (3)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="TextDetection" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../TextDetection" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../TextDetection/Project.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="project (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="TextDetection" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../GetDifferentFrames/02" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../GetDifferentFrames/02/project.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -174,9 +319,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Project (2)" />
+        <item itemvalue="Python.Project (3)" />
+        <item itemvalue="Python.project (1)" />
         <item itemvalue="Python.project" />
-        <item itemvalue="Python.Project" />
-        <item itemvalue="Python.TextDetect" />
+        <item itemvalue="Python.Project (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -213,22 +360,27 @@
       <workItem from="1562076902196" duration="56000" />
       <workItem from="1567441534940" duration="245000" />
       <workItem from="1567471311284" duration="9009000" />
+      <workItem from="1567485390696" duration="12497000" />
+      <workItem from="1567566350042" duration="7031000" />
+      <workItem from="1567610742183" duration="4424000" />
+      <workItem from="1567672165732" duration="1216000" />
+      <workItem from="1567677757786" duration="8863000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65875000" />
+    <option name="totallyTimeSpent" value="99906000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29490617" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.16554959" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49798927" weight="0.2446959" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49798927" weight="0.24328147" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -245,20 +397,20 @@
       <window_info anchor="right" id="Database" order="4" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26675603" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16554959" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2446959" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49798927" visible="true" weight="0.24328147" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5020107" side_tool="true" weight="0.2446959" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -273,16 +425,30 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/TextDetection$Project.coverage" NAME="Project Coverage Results" MODIFIED="1561967286543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/seperate_localized_text$project.coverage" NAME="project Coverage Results" MODIFIED="1567481803209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../TextAsaString/ocr_1" />
+    <SUITE FILE_PATH="coverage/seperate_localized_text$project.coverage" NAME="project Coverage Results" MODIFIED="1567567176877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../TextAsaString/ocr_1" />
     <SUITE FILE_PATH="coverage/TextDetection$TextDetect.coverage" NAME="TextDetect Coverage Results" MODIFIED="1559585092289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads/Compressed/text-detection-master/text-detection-master" />
-    <SUITE FILE_PATH="coverage/seperate_localized_text$Project.coverage" NAME="Project Coverage Results" MODIFIED="1567480927952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/seperate_localized_text$Project__1_.coverage" NAME="Project (1) Coverage Results" MODIFIED="1567494754516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../TextDetection" />
+    <SUITE FILE_PATH="coverage/seperate_localized_text$Project__2_.coverage" NAME="Project (2) Coverage Results" MODIFIED="1567692732577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Table Detection/Test_01 - table with borders" />
+    <SUITE FILE_PATH="coverage/seperate_localized_text$Project.coverage" NAME="Project Coverage Results" MODIFIED="1567490903615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/seperate_localized_text$project__1_.coverage" NAME="project (1) Coverage Results" MODIFIED="1567686064996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../GetDifferentFrames/02" />
+    <SUITE FILE_PATH="coverage/seperate_localized_text$Project__3_.coverage" NAME="Project (3) Coverage Results" MODIFIED="1567688242602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../TextDetection" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/Downloads/Compressed/text-detection-master/text-detection-master/TextDetect.py" />
-    <entry file="file://$PROJECT_DIR$/Project.py">
+    <entry file="file://$PROJECT_DIR$/../../TextDetection/Project.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        <state relative-caret-position="980">
+          <caret line="55" column="7" lean-forward="true" selection-start-line="55" selection-start-column="7" selection-end-line="55" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TextDetection/Project.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
@@ -291,8 +457,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../TextAsaString/ocr_1/project.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../GetDifferentFrames/02/project.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <caret line="7" column="50" lean-forward="true" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="57" column="86" selection-start-line="57" selection-start-column="7" selection-end-line="57" selection-end-column="86" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Table Detection/Test_01 - table with borders/Project.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Table Detection/Test_02- table without borders/Project.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="66" lean-forward="true" selection-start-line="12" selection-start-column="66" selection-end-line="12" selection-end-column="66" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>

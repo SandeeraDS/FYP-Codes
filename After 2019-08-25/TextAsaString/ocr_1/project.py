@@ -22,5 +22,9 @@ cv2.imshow("img1", img)
 
 print(result)
 
+f = open("guru99.txt", "w+")
+f.write(result)
+f.close()
+
 
 cv2.waitKey(0)

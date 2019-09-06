@@ -1,0 +1,12 @@
+------------------------------------------------
+
+COMMON
+PROPER?
+
+‘Captain Pugwash is a fearless captain’
+
+shows ‘captain’ as both a common
+and proper noun
+
+------------------------------------------------
+

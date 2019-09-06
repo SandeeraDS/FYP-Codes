@@ -1,0 +1,22 @@
+------------------------------------------------
+
+NOMINALISATION REPLACEMENTS
+
+Avoid (nouns)
+acquisition
+approval
+performance
+simplicity
+
+signature
+
+Use (verbs)
+acquire
+approve
+perform
+simplify
+
+sign
+
+------------------------------------------------
+
