@@ -2,60 +2,145 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0f67f0a-66ca-48ae-9825-9696df2d0019" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/1001-Size.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/144-start.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/1716-Size.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/185-Pixel.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/1917-Size.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/2122-Pixel.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/2647-Size.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/2811-Pixel.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/2910-Size.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/2961-Size.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/3160-Size.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/347-Size.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/3563-Size.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/4457-Size.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/4524-Size.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/457-Size.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/4660-Size.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/4890-Size.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/5115-Size.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/597-Size.jpg" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GetDifferentFrames/.idea/GetDifferentFrames.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/10434.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/1056.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/10836.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/11033.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/1241.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/1316.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/1418.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/147.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/1571.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/1753.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/2377.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/278.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/2861.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/3111.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/386.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/3874.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/4340.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/4679.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/5390.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/581.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/5951.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/6166.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/6701.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/6932.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/7029.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/7182.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/7233.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/7284.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/7386.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/7437.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/769.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/7778.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/8022.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/8362.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/8464.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/8622.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/8682.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/8733.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/8899.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/913.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/9324.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/9552.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/973.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/9762.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/1023-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/1023_2-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/10484-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/10484_2-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/10886-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/10886_2-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/1106-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/1106_2-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/11083-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/11083_2-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/1291-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/1291_2-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/1366-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/1366_2-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/1468-size.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/1468_2-size.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/1621-size.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/1621_2-size.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/1803-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/1803_2-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/197-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/197_2-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/2427-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/2427_2-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/2911-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/2911_2-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/3161-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/3161_2-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/328-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/328_2-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/3924-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/3924_2-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/436-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/436_2-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/4390-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/4390_2-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/4729-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/4729_2-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/5440-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/5440_2-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/6001-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/6001_2-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/6216-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/6216_2-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/631-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/631_2-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/6751-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/6751_2-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/6982-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/6982_2-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/7079-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/7079_2-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/7232-size.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/7232_2-size.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/7283-size.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/7283_2-size.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/7334-size.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/7334_2-size.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/7436-size.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/7436_2-size.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/7487-size.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/7487_2-size.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/7828-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/7828_2-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/8072-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/8072_2-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/819-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/819_2-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/8412-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/8412_2-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/8514-size.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/8514_2-size.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/8672-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/8672_2-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/8732-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/8732_2-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/8783-size.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/8783_2-size.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/8949-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/8949_2-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/9374-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/9374_2-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/9602-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/9602_2-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/963-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/963_2-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/9812-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/9812_2-Pixel.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/project.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../GetDifferentFrames/02/project.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TextAsaString/ocr_1/project.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../TextAsaString/ocr_1/project.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test_02- table without borders/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Test_02- table without borders/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test_02- table without borders/Project.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Test_02- table without borders/Project.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../seperate localized text/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../seperate localized text/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../seperate localized text/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../seperate localized text/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../seperate localized text/image/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../seperate localized text/image/10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../seperate localized text/image/11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../seperate localized text/image/12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../seperate localized text/image/13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../seperate localized text/image/14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../seperate localized text/image/15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../seperate localized text/image/16.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../seperate localized text/image/17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../seperate localized text/image/18.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../seperate localized text/image/19.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../seperate localized text/image/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../seperate localized text/image/20.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../seperate localized text/image/21.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../seperate localized text/image/22.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../seperate localized text/image/23.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../seperate localized text/image/24.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../seperate localized text/image/25.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../seperate localized text/image/26.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../seperate localized text/image/27.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../seperate localized text/image/28.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../seperate localized text/image/29.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../seperate localized text/image/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../seperate localized text/image/30.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../seperate localized text/image/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../seperate localized text/image/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../seperate localized text/image/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../seperate localized text/image/7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../seperate localized text/image/8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../seperate localized text/image/9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../video into frames/Split frames in a Video/VideoFrames.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../video into frames/Split frames in a Video/VideoFrames.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,12 +149,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Project.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="33" column="97" selection-start-line="33" selection-start-column="97" selection-end-line="33" selection-end-column="97" />
+            <state relative-caret-position="120">
+              <caret line="6" column="56" lean-forward="true" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -80,7 +165,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../../video into frames/Split frames in a Video/VideoFrames.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
+            <state relative-caret-position="40">
               <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
@@ -119,9 +204,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-280" />
-    <option name="y" value="72" />
+    <option name="y" value="71" />
     <option name="width" value="1940" />
     <option name="height" value="1050" />
   </component>
@@ -146,7 +231,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -226,25 +313,19 @@
       <option name="presentableId" value="Default" />
       <updated>1567611134329</updated>
       <workItem from="1567611136801" duration="7213000" />
+      <workItem from="1567857580717" duration="1388000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7213000" />
+    <option name="totallyTimeSpent" value="8601000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32956153" />
@@ -252,11 +333,17 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
     </layout>
     <layout-to-restore>
       <window_info id="Favorites" order="0" side_tool="true" />
@@ -287,23 +374,24 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Test_01$Project.coverage" NAME="Project Coverage Results" MODIFIED="1567617858531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Test_01___table_with_borders$Project.coverage" NAME="Project Coverage Results" MODIFIED="1567857603635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Test_01$VideoFrames.coverage" NAME="VideoFrames Coverage Results" MODIFIED="1567616641219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../../video into frames/Split frames in a Video" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../../video into frames/Split frames in a Video/VideoFrames.py">
+    <entry file="file://$PROJECT_DIR$/Project.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+        <state relative-caret-position="120">
+          <caret line="6" column="56" lean-forward="true" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Project.py">
+    <entry file="file://$PROJECT_DIR$/../../../video into frames/Split frames in a Video/VideoFrames.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="33" column="97" selection-start-line="33" selection-start-column="97" selection-end-line="33" selection-end-column="97" />
+        <state relative-caret-position="40">
+          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>

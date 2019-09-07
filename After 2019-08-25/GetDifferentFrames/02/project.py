@@ -5,7 +5,7 @@ import pytesseract
 
 pytesseract.pytesseract.tesseract_cmd = "C:\\Program Files\\Tesseract-OCR\\tesseract.exe"
 # input video file
-cap = cv2.VideoCapture('../../../../FYP Videos/114.mp4')
+cap = cv2.VideoCapture('../../../../FYP Videos/table_05.mp4')
 # get frame rate
 fps = cap.get(cv2.CAP_PROP_FPS)
 

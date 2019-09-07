@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-img = cv2.imread("07.jpg")
+img = cv2.imread("21.jpg")
 
 # sobel_img_x = cv2.Sobel(img, cv2.CV_8U, 1, 0, ksize=3)
 # sobel_img_y = cv2.Sobel(img, cv2.CV_8U, 0, 1, ksize=3)
