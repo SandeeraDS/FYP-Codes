@@ -1,8 +1,10 @@
 import cv2
 import numpy as np
 
+# img = cv2.imread("01.jpg")
+# img = cv2.imread("07.jpg")
 img = cv2.imread("21.jpg")
-
+img2 = img.copy()
 # sobel_img_x = cv2.Sobel(img, cv2.CV_8U, 1, 0, ksize=3)
 # sobel_img_y = cv2.Sobel(img, cv2.CV_8U, 0, 1, ksize=3)
 # sobel = cv2.addWeighted(sobel_img_x, 1, sobel_img_y, 1, 0)
@@ -33,8 +35,7 @@ for contour in contours:
         table_h = h
         table_w = w
 if not table_x == -1 and not table_y == -1:
-    cv2.rectangle(img, (table_x, table_y), (table_x + table_w, table_y + table_h), (0, 0, 0), 2)
-
+    cv2.rectangle(img2, (table_x, table_y), (table_x + table_w, table_y + table_h), (255, 0, 0), 2)
 cv2.imshow("img1", edges)
-cv2.imshow("img2", img)
+cv2.imshow("img2", img2)
 cv2.waitKey(0)

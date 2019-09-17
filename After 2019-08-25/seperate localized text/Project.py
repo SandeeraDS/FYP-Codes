@@ -3,7 +3,7 @@ import time
 import numpy as np
 
 # input video file
-cap = cv2.VideoCapture('../../../FYP Videos/2.mp4')
+cap = cv2.VideoCapture('../../../FYP Videos/114.mp4')
 # get frame rate
 fps = cap.get(cv2.CAP_PROP_FPS)
 
@@ -50,7 +50,7 @@ def detectText(image, i):
         brect = cv2.boundingRect(contour)  # brect = (x,y,w,h)
         ar = brect[2] / brect[3]
 
-        if ar > 2 and brect[2] > 40 and brect[3] > 16 and brect[3] < 100:
+        if ar > 2.2 and brect[2] > 40 and brect[3] > 15 and brect[3] < 100:
             list.append(brect)
 
     for r in list:

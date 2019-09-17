@@ -14,10 +14,12 @@ firstFrame = False
 skipCountBySize = 0
 skipCountByPixel = 0
 
-
 # method for text detecting
 
 def extract_text_string(image, frame_position):
+
+
+    cv2.imshow("ocr_img", image)
     result = pytesseract.image_to_string(image, lang='eng')
     f = open(str(frame_position-50)+".txt", "w+")
     f.write("------------------------------------------------\n\n")
@@ -43,7 +45,7 @@ def detect_text(img, img_dialate, frame_position):
         brect = cv2.boundingRect(contour)  # brect = (x,y,w,h)
         ar = brect[2] / brect[3]
 
-        if ar > 2.2 and brect[2] > 40 and brect[3] > 15 and brect[3] < 100:
+        if ar >= 2.7 and brect[2] >= 40 and brect[3] >= 17 and brect[3] <= 60:
             list.append(brect)
             if max_width < brect[2]:
                 max_width = brect[2]
@@ -78,7 +80,7 @@ def detect_text(img, img_dialate, frame_position):
 
                 skipCountByPixel += 1
 
-                if skipCountByPixel > 50:
+                if skipCountByPixel > 100:
 
                     skipCountByPixel = 0
                     skipCountBySize = 0
@@ -98,8 +100,8 @@ def detect_text(img, img_dialate, frame_position):
                     if x < current_image_ZeroPixel or y > current_image_ZeroPixel:
                         previous_image = crop_img
                         cv2.imshow("Changed", img)
-                        cv2.imwrite("image/" + str(frame_position) + "-size" + ".jpg", img)
-                        cv2.imwrite("image/" + str(frame_position) + "_2-size" + ".jpg", img_empty)
+                        cv2.imwrite("image/" + str(frame_position - 100) + "-Pixel" + ".jpg", img)
+                        cv2.imwrite("image/" + str(frame_position - 100) + "_2-Pixel" + ".jpg", img_empty)
                         extract_text_string(img_empty,frame_position)
             else:
 
@@ -109,29 +111,30 @@ def detect_text(img, img_dialate, frame_position):
                     skipCountByPixel = 0
                     skipCountBySize = 0
 
-                    previous_image_NoneZeroPixel = cv2.countNonZero(previous_image)
-                    current_image_NoneZeroPixel = cv2.countNonZero(crop_img)
-
-                    height1, width1 = previous_image.shape
-                    height2, width2 = crop_img.shape
-
-                    previous_image_ZeroPixel = height1 * width1 - previous_image_NoneZeroPixel
-                    current_image_ZeroPixel = height2 * width2 - current_image_NoneZeroPixel
-
-                    x = previous_image_ZeroPixel + 50
-                    y = previous_image_ZeroPixel - 50
-
-                    if x < current_image_ZeroPixel or y > current_image_ZeroPixel:
-                        previous_image = crop_img
-                        cv2.imshow("Changed", img)
-                        cv2.imwrite("image/" + str(frame_position) + "-Pixel" + ".jpg", img)
-                        cv2.imwrite("image/" + str(frame_position) + "_2-Pixel" + ".jpg", img_empty)
-                        extract_text_string(img_empty, frame_position)
+                    # previous_image_NoneZeroPixel = cv2.countNonZero(previous_image)
+                    # current_image_NoneZeroPixel = cv2.countNonZero(crop_img)
+                    #
+                    # height1, width1 = previous_image.shape
+                    # height2, width2 = crop_img.shape
+                    #
+                    # previous_image_ZeroPixel = height1 * width1 - previous_image_NoneZeroPixel
+                    # current_image_ZeroPixel = height2 * width2 - current_image_NoneZeroPixel
+                    #
+                    # x = previous_image_ZeroPixel + 50
+                    # y = previous_image_ZeroPixel - 50
+                    #
+                    # if x < current_image_ZeroPixel or y > current_image_ZeroPixel:
+                    #     previous_image = crop_img
+                    #     cv2.imshow("Changed", img)
+                    #     cv2.imwrite("image/" + str(frame_position - 50) + "-size" + ".jpg", img)
+                    #     cv2.imwrite("image/" + str(frame_position - 50) + "_2-size" + ".jpg", img_empty)
+                    #     extract_text_string(img_empty, frame_position)
                     # skipCountBySize = 0
                     # skipCountByPixel = 0
-                    # previous_image = crop_img
-                    # cv2.imwrite("image/" + str(frame_position) + "-Size" + ".jpg", img)
-                    # cv2.imshow("Changed", img)
+                    previous_image = crop_img
+                    cv2.imwrite("image/" + str(frame_position) + "-Size" + ".jpg", img)
+                    cv2.imwrite("image/" + str(frame_position - 50) + "_2-size" + ".jpg", img_empty)
+                    extract_text_string(img_empty, frame_position)
 
     cv2.imshow('frame', img)
     #cv2.imshow("draw", draw)
@@ -147,7 +150,7 @@ def pre_processing(image, frame_position):
     # thresholding
     retval, threshold = cv2.threshold(sobel_img_x, 244, 255, cv2.THRESH_BINARY)
     # Dilation
-    kernel = cv2.getStructuringElement(cv2.MORPH_RECT, ksize=(10, 2), anchor=(-1, -1))
+    kernel = cv2.getStructuringElement(cv2.MORPH_RECT, ksize=(11, 2), anchor=(-1, -1))
     img_dilate = cv2.morphologyEx(threshold, cv2.MORPH_DILATE, kernel, anchor=(-1, -1), iterations=2,
                                   borderType=cv2.BORDER_REFLECT, borderValue=255)
     detect_text(img, img_dilate, frame_position)

@@ -3,7 +3,7 @@ import time
 import numpy as np
 
 # input video file
-cap = cv2.VideoCapture('../../FYP Videos/2.mp4')
+cap = cv2.VideoCapture('../../FYP Videos/114.mp4')
 # get frame rate
 fps = cap.get(cv2.CAP_PROP_FPS)
 
@@ -34,7 +34,7 @@ def detectText(image):
 
     retval, threshold = cv2.threshold(sobel_img_x, 244, 255, cv2.THRESH_BINARY)
     # Dilation
-    kernel = cv2.getStructuringElement(cv2.MORPH_RECT, ksize=(10, 2), anchor=(-1, -1))
+    kernel = cv2.getStructuringElement(cv2.MORPH_RECT, ksize=(11, 2), anchor=(-1, -1))
     img_dilate = cv2.morphologyEx(threshold, cv2.MORPH_DILATE, kernel, anchor=(-1, -1), iterations=2,
                                   borderType=cv2.BORDER_REFLECT, borderValue=255)
 
@@ -47,7 +47,7 @@ def detectText(image):
         brect = cv2.boundingRect(contour)  # brect = (x,y,w,h)
         ar = brect[2] / brect[3]
 
-        if ar > 2 and brect[2] > 40 and brect[3] > 16 and brect[3] < 100:
+        if ar >= 2.7 and brect[2] >=40 and brect[3] >= 17 and brect[3] <= 60:
             list.append(brect)
 
     for r in list:

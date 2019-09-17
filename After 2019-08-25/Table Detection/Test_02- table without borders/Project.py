@@ -1,6 +1,4 @@
-import os
 import cv2
-import imutils
 
 # This only works if there's only one table on a page
 # Important parameters:
@@ -31,7 +29,7 @@ def pre_process_image(img, save_in_file, morph_size=(8, 8)):
     return img_dilate
 
 
-def find_text_boxes(img, pre, min_text_height_limit=6, max_text_height_limit=40):
+def find_text_boxes(img, pre, min_text_height_limit=15, max_text_height_limit=60):
     # Looking for the text spots contours
     # OpenCV 3
     # img, contours, hierarchy = cv2.findContours(pre, cv2.RETR_LIST, cv2.CHAIN_APPROX_SIMPLE)
@@ -53,7 +51,7 @@ def find_text_boxes(img, pre, min_text_height_limit=6, max_text_height_limit=40)
     return boxes
 
 
-def find_table_in_boxes(img ,boxes, cell_threshold=10, min_columns=2):
+def find_table_in_boxes(img ,boxes, cell_threshold=20, min_columns=2):
     rows = {}
     cols = {}
 
@@ -105,11 +103,16 @@ def build_lines(table_cells):
     return hor_lines, ver_lines
 
 
-img = cv2.imread("12.jpg")
+# img = cv2.imread("12.jpg")
+# img = cv2.imread("15.jpg")
+# img = cv2.imread("20.jpg")
+# img = cv2.imread("13.jpg")
+img = cv2.imread("17.jpg")
+
 
 pre_processed = pre_process_image(img, img)
-text_boxes = find_text_boxes(img,pre_processed)
-cells = find_table_in_boxes(img ,text_boxes)
+text_boxes = find_text_boxes(img, pre_processed)
+cells = find_table_in_boxes(img, text_boxes)
 hor_lines, ver_lines = build_lines(cells)
 
 # Visualize the result
@@ -132,7 +135,7 @@ if len(final_box) == 4:
     for line in final_box:
         # print(line)
         [x1, y1, x2, y2] = line
-        cv2.line(vis, (x1, y1), (x2, y2), (0, 0, 0), 1)
+        cv2.line(vis, (x1, y1), (x2, y2), (255, 0, 0), 2)
 
 
 cv2.imshow("img2", vis)
