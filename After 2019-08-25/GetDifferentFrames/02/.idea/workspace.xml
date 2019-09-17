@@ -3,42 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f9781869-ce38-4ea9-98e8-8db7321f2ef3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1025.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/145.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1535.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1637.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1781.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2069.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2291.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/360.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/821.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/1075-size.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/1075_2-size.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/1585-size.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/1585_2-size.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/1687-size.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/1687_2-size.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/1831-Pixel.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/1831_2-Pixel.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/195-Pixel.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/195_2-Pixel.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/2119-Pixel.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/2119_2-Pixel.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/2341-Pixel.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/2341_2-Pixel.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/410-Pixel.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/410_2-Pixel.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/871-Pixel.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/871_2-Pixel.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/project.py" beforeDir="false" afterPath="$PROJECT_DIR$/project.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Table Detection/Test_01 - table with borders/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Table Detection/Test_01 - table with borders/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Table Detection/Test_01 - table with borders/Project.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Table Detection/Test_01 - table with borders/Project.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Table Detection/Test_02- table without borders/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Table Detection/Test_02- table without borders/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Table Detection/Test_02- table without borders/Project.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Table Detection/Test_02- table without borders/Project.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../seperate localized text/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../seperate localized text/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../TextDetection/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TextDetection/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../TextDetection/Project.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TextDetection/Project.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/project.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="880">
-              <caret line="47" column="75" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="75" />
+            <state relative-caret-position="260">
+              <caret line="136" column="65" selection-start-line="136" selection-start-column="51" selection-end-line="136" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -84,8 +51,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-280" />
-    <option name="y" value="70" />
+    <option name="x" value="158" />
+    <option name="y" value="71" />
     <option name="width" value="1940" />
     <option name="height" value="1050" />
   </component>
@@ -95,6 +62,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -106,7 +74,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -229,22 +196,24 @@
       <workItem from="1567959947569" duration="122000" />
       <workItem from="1568000013242" duration="6505000" />
       <workItem from="1568681099126" duration="284000" />
+      <workItem from="1568706245934" duration="764000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52496000" />
+    <option name="totallyTimeSpent" value="53260000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3016086" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30563003" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.35643566" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3977433" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -266,7 +235,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/02$project__1_.coverage" NAME="project (1) Coverage Results" MODIFIED="1567432746641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../TextAsaString/ocr_1" />
-    <SUITE FILE_PATH="coverage/02$project.coverage" NAME="project Coverage Results" MODIFIED="1568032849184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/02$project.coverage" NAME="project Coverage Results" MODIFIED="1568706278064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/02$Project.coverage" NAME="Project Coverage Results" MODIFIED="1567431897127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../../TextDetection" />
   </component>
   <component name="editorHistoryManager">
@@ -292,8 +261,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="47" column="75" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="75" />
+        <state relative-caret-position="260">
+          <caret line="136" column="65" selection-start-line="136" selection-start-column="51" selection-end-line="136" selection-end-column="65" />
         </state>
       </provider>
     </entry>

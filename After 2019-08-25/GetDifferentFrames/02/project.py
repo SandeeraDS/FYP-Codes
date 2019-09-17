@@ -5,7 +5,7 @@ import pytesseract
 
 pytesseract.pytesseract.tesseract_cmd = "C:\\Program Files\\Tesseract-OCR\\tesseract.exe"
 # input video file
-cap = cv2.VideoCapture('../../../../FYP Videos/table_05.mp4')
+cap = cv2.VideoCapture('../../../../FYP Videos/table_04.mp4')
 # get frame rate
 fps = cap.get(cv2.CAP_PROP_FPS)
 
@@ -21,7 +21,7 @@ def extract_text_string(image, frame_position):
 
     cv2.imshow("ocr_img", image)
     result = pytesseract.image_to_string(image, lang='eng')
-    f = open(str(frame_position-50)+".txt", "w+")
+    f = open(str(frame_position)+".txt", "w+")
     f.write("------------------------------------------------\n\n")
     f.write(result)
     f.write("\n\n------------------------------------------------\n\n")
@@ -102,7 +102,7 @@ def detect_text(img, img_dialate, frame_position):
                         cv2.imshow("Changed", img)
                         cv2.imwrite("image/" + str(frame_position - 100) + "-Pixel" + ".jpg", img)
                         cv2.imwrite("image/" + str(frame_position - 100) + "_2-Pixel" + ".jpg", img_empty)
-                        extract_text_string(img_empty,frame_position)
+                        extract_text_string(img_empty,frame_position-100)
             else:
 
                 skipCountBySize += 1
@@ -132,9 +132,9 @@ def detect_text(img, img_dialate, frame_position):
                     # skipCountBySize = 0
                     # skipCountByPixel = 0
                     previous_image = crop_img
-                    cv2.imwrite("image/" + str(frame_position) + "-Size" + ".jpg", img)
+                    cv2.imwrite("image/" + str(frame_position-50) + "-Size" + ".jpg", img)
                     cv2.imwrite("image/" + str(frame_position - 50) + "_2-size" + ".jpg", img_empty)
-                    extract_text_string(img_empty, frame_position)
+                    extract_text_string(img_empty, frame_position-50)
 
     cv2.imshow('frame', img)
     #cv2.imshow("draw", draw)

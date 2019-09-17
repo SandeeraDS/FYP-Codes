@@ -1,7 +1,7 @@
 import cv2
 import os
 
-cap = cv2.VideoCapture('../../../FYP Videos/112.mp4')
+cap = cv2.VideoCapture('../../../FYP Videos/table_04.mp4')
 # path = 'D:/OpenCV/Scripts/Images'
 
 if cap.isOpened() == False:

@@ -3,38 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a0f67f0a-66ca-48ae-9825-9696df2d0019" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../GetDifferentFrames/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../GetDifferentFrames/02/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/1025.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/145.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/1535.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/1637.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/1781.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/2069.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/2291.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/360.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/821.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/1075-size.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/1075_2-size.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/1585-size.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/1585_2-size.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/1687-size.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/1687_2-size.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/1831-Pixel.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/1831_2-Pixel.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/195-Pixel.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/195_2-Pixel.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/2119-Pixel.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/2119_2-Pixel.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/2341-Pixel.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/2341_2-Pixel.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/410-Pixel.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/410_2-Pixel.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/871-Pixel.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/image/871_2-Pixel.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../GetDifferentFrames/02/project.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../GetDifferentFrames/02/project.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Test_01 - table with borders/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Test_01 - table with borders/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Test_01 - table with borders/Project.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Test_01 - table with borders/Project.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,8 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Project.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="66" column="76" selection-start-line="66" selection-start-column="76" selection-end-line="66" selection-end-column="76" />
+            <state relative-caret-position="1986">
+              <caret line="109" column="20" selection-start-line="109" selection-start-column="20" selection-end-line="109" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -74,7 +43,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-280" />
     <option name="y" value="70" />
     <option name="width" value="1940" />
@@ -187,16 +156,18 @@
       <workItem from="1567953748302" duration="1459000" />
       <workItem from="1568000370683" duration="3000000" />
       <workItem from="1568181688074" duration="595000" />
+      <workItem from="1568699808084" duration="1383000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34209000" />
+    <option name="totallyTimeSpent" value="35592000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26072386" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26407507" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -247,7 +218,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Test_01$Project.coverage" NAME="Project Coverage Results" MODIFIED="1567617858531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Test_02__table_without_borders$Project.coverage" NAME="Project Coverage Results" MODIFIED="1568699829508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Test_02__table_without_borders$Project.coverage" NAME="Project Coverage Results" MODIFIED="1568701000590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Test_01$VideoFrames.coverage" NAME="VideoFrames Coverage Results" MODIFIED="1567616641219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../../video into frames/Split frames in a Video" />
   </component>
   <component name="editorHistoryManager">
@@ -263,8 +234,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Project.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="66" column="76" selection-start-line="66" selection-start-column="76" selection-end-line="66" selection-end-column="76" />
+        <state relative-caret-position="1986">
+          <caret line="109" column="20" selection-start-line="109" selection-start-column="20" selection-end-line="109" selection-end-column="20" />
         </state>
       </provider>
     </entry>
