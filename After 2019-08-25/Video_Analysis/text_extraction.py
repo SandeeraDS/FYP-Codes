@@ -1,5 +1,6 @@
 import cv2
 import pytesseract
+import re
 
 pytesseract.pytesseract.tesseract_cmd = "C:\\Program Files\\Tesseract-OCR\\tesseract.exe"
 
@@ -23,8 +24,8 @@ class text_extraction:
             self.first = False
             self.previous_content = content
         else:
-            previous_trim_content = "".join(self.previous_content.split())
-            current_trim_content = "".join(content.split())
+            previous_trim_content = "".join(re.findall("[a-zA-Z]+", self.previous_content.lower()))
+            current_trim_content = "".join(re.findall("[a-zA-Z]+", content.lower()))
 
             if previous_trim_content != current_trim_content:
                 self.previous_content = content
