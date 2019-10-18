@@ -3,8 +3,12 @@ import numpy as np
 
 # img = cv2.imread("01.jpg")
 # img = cv2.imread("07.jpg")
-img = cv2.imread("20.jpg")
+img = cv2.imread("21.jpg")
 img2 = img.copy()
+height, width,x = img.shape
+img_empty = np.zeros([height, width], dtype=np.uint8)
+img_empty.fill(255)
+
 # sobel_img_x = cv2.Sobel(img, cv2.CV_8U, 1, 0, ksize=3)
 # sobel_img_y = cv2.Sobel(img, cv2.CV_8U, 0, 1, ksize=3)
 # sobel = cv2.addWeighted(sobel_img_x, 1, sobel_img_y, 1, 0)
@@ -36,6 +40,8 @@ for contour in contours:
         table_w = w
 if not table_x == -1 and not table_y == -1:
     cv2.rectangle(img2, (table_x, table_y), (table_x + table_w, table_y + table_h), (255, 0, 0), 2)
-cv2.imshow("img1", edges)
+    # img_empty = img2[0:table_y,0:width]
+    cv2.imshow("img1", img2[table_y:table_y+table_h, table_x:table_x+table_w])
+
 cv2.imshow("img2", img2)
 cv2.waitKey(0)

@@ -36,19 +36,23 @@ class figure_detector_border:
         if not table_x == -1 and not table_y == -1 and not table_h>height-50:
 
             if self.first:
-                cv2.rectangle(gray_img, (table_x, table_y), (table_x + table_w, table_y + table_h), (255, 0, 0), 2)
-                cv2.imwrite("table/" + str(frame_position) + "-Size" + ".jpg", gray_img)
+
+                cv2.imwrite("table/" + str(frame_position) + "-Size" + ".jpg",
+                            gray_img[table_y:table_y + table_h, table_x:table_x + table_w])
+
                 self.first=False
                 self.previous_h = table_h
                 self.previous_w = table_w
+                self.text_extraction_obj.extract_text_string(binary_img[0:table_y, 0:width], frame_position)
 
             else:
                 if self.previous_w == table_w or self.previous_h == table_h:
                         pass
                 else:
-                    cv2.rectangle(gray_img, (table_x, table_y), (table_x + table_w, table_y + table_h), (255, 0, 0), 2)
-                    cv2.imwrite("table/" + str(frame_position) + "-Size" + ".jpg", gray_img)
+                    cv2.imwrite("table/" + str(frame_position) + "-Size" + ".jpg",
+                                gray_img[table_y:table_y+table_h, table_x:table_x+table_w])
                     self.previous_h = table_h
                     self.previous_w = table_w
+                    self.text_extraction_obj.extract_text_string(binary_img[0:table_y, 0:width], frame_position)
         else:
              self.text_extraction_obj.extract_text_string(binary_img, frame_position)

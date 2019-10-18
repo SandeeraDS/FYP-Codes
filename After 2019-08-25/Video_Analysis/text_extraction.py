@@ -14,7 +14,8 @@ class text_extraction:
         cv2.imshow("ocr_img", image)
         content = pytesseract.image_to_string(image, lang='eng')
 
-        self.string_manipulation(content.strip(), frame_position)
+        if len(content)>4:
+            self.string_manipulation(content.strip(), frame_position)
 
 
 

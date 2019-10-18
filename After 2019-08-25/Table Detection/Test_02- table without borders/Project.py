@@ -107,7 +107,7 @@ def build_lines(table_cells):
 # img = cv2.imread("15.jpg")
 # img = cv2.imread("20.jpg")
 # img = cv2.imread("13.jpg")
-img = cv2.imread("20.jpg")
+img = cv2.imread("06.jpg")
 
 
 pre_processed = pre_process_image(img, img)
