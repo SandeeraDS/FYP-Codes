@@ -4,8 +4,9 @@
     <list default="true" id="18fb146a-9d05-4b26-8f7c-b0a059ffc58a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Table Detection/Test_02- table without borders/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Table Detection/Test_02- table without borders/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Video_Analysis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Video_Analysis/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Video_Analysis/border_figure_detector.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Video_Analysis/border_figure_detector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Video_Analysis/frame_seperator.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Video_Analysis/frame_seperator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Video_Analysis/text_extraction.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Video_Analysis/text_extraction.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stringTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/stringTest.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +44,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="60" />
     <option name="y" value="215" />
     <option name="width" value="1750" />
@@ -130,12 +131,12 @@
       <updated>1571302196083</updated>
       <workItem from="1571302198285" duration="2969000" />
       <workItem from="1571315195197" duration="1464000" />
-      <workItem from="1571369045607" duration="2871000" />
+      <workItem from="1571369045607" duration="3016000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7304000" />
+    <option name="totallyTimeSpent" value="7449000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />

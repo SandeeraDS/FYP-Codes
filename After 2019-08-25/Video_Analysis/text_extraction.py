@@ -17,6 +17,7 @@ class text_extraction:
         self.string_manipulation(content.strip(), frame_position)
 
 
+
     def string_manipulation(self, content, frame_position):
 
         if self.first:

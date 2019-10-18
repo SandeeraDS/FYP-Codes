@@ -13,6 +13,7 @@ class figure_detector_border:
     def figure_detection_border(self, gray_img, binary_img, frame_position):
 
         img = gray_img.copy()
+        height, width = gray_img.shape
 
         edges = cv2.Canny(img, 31, 180, apertureSize=3)
 
@@ -32,7 +33,7 @@ class figure_detector_border:
                 table_y = y
                 table_h = h
                 table_w = w
-        if not table_x == -1 and not table_y == -1:
+        if not table_x == -1 and not table_y == -1 and not table_h>height-50:
 
             if self.first:
                 cv2.rectangle(gray_img, (table_x, table_y), (table_x + table_w, table_y + table_h), (255, 0, 0), 2)
