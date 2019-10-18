@@ -1,9 +1,11 @@
 import cv2
 import text_extraction
+import border_figure_detector
 
 class unque_frame_detector:
 
-    obj = text_extraction.text_extraction()
+    text_extraction_obj = text_extraction.text_extraction()
+    border_figure_detector_obj = border_figure_detector.figure_detector_border()
 
     def __init__(self):
         self.previous_image = None
@@ -27,7 +29,7 @@ class unque_frame_detector:
 
                     self.skipCountByPixel += 1
 
-                    if self.skipCountByPixel > 100:
+                    if self.skipCountByPixel > 50:
 
                         self.skipCountByPixel = 0
                         self.skipCountBySize = 0
@@ -47,9 +49,9 @@ class unque_frame_detector:
                         if x < current_image_ZeroPixel or y > current_image_ZeroPixel:
                             self.previous_image = crop_img
                             # cv2.imshow("result", img)
-                            cv2.imwrite("image/" + str(frame_position - 100) + "-Pixel" + ".jpg", img)
-                            cv2.imwrite("image/" + str(frame_position - 100) + "_2-Pixel" + ".jpg", img_empty)
-                            self.obj.extract_text_string(img_empty, frame_position-100)
+                            cv2.imwrite("image/" + str(frame_position - 50) + "-Pixel" + ".jpg", img)
+                            cv2.imwrite("image/" + str(frame_position - 50) + "_2-Pixel" + ".jpg", img_empty)
+                            self.border_figure_detector_obj.figure_detection_border(img, img_empty, frame_position-50)
                 else:
 
                     self.skipCountBySize += 1
@@ -63,6 +65,6 @@ class unque_frame_detector:
                         # cv2.imshow("result", img)
                         cv2.imwrite("image/" + str(frame_position - 50) + "-Size" + ".jpg", img)
                         cv2.imwrite("image/" + str(frame_position - 50) + "_2-size" + ".jpg", img_empty)
-                        self.obj.extract_text_string(img_empty, frame_position-50)
+                        self.border_figure_detector_obj.figure_detection_border(img, img_empty, frame_position-50)
 
         cv2.imshow("video", img)

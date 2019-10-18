@@ -4,7 +4,7 @@ import pre_processor
 class frame_seperator:
 
     # input video file
-    cap = cv2.VideoCapture('../../../FYP Videos/222.mp4')
+    cap = cv2.VideoCapture('../../../FYP Videos/2.mp4')
     # get frame rate
     fps = cap.get(cv2.CAP_PROP_FPS)
 
