@@ -1,14 +1,13 @@
 import cv2
 import pre_processor
-import Models.timestamp_list as timestamp_list
-
+import Shared.frame_dict_ops as ops
 
 class frame_seperator:
     # input video file
-    cap = cv2.VideoCapture('../../../FYP Videos/2.mp4')
+    cap = cv2.VideoCapture('../../../FYP Videos/table_04.mp4')
     # get frame rate
     fps = cap.get(cv2.CAP_PROP_FPS)
-
+    ops_obj = ops.dict_ops()
     def __init__(self):
         pass
 
@@ -33,6 +32,4 @@ class frame_seperator:
         self.cap.release()
 
     def iterate_differentframe_timestamp(self):
-
-        for item in timestamp_list.timeStampList:
-            print(item)
+        self.ops_obj.view_dict()

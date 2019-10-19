@@ -1,11 +1,11 @@
 import cv2
 import text_extraction
-import Models.timestamp_list as timestamp_list
+import Shared.frame_dict_ops as ops
 
 
 class figure_detector_border:
     text_extraction_obj = text_extraction.text_extraction()
-
+    ops_obj = ops.dict_ops()
     def __init__(self):
         self.first = True
         self.previous_h = 0
@@ -44,7 +44,7 @@ class figure_detector_border:
                 self.first = False
                 self.previous_h = table_h
                 self.previous_w = table_w
-                timestamp_list.timeStampList.append({frame_position: time_stamp})
+                self.ops_obj.add_to_dict_from_figure(frame_position,time_stamp)
                 self.text_extraction_obj.extract_text_string(binary_img[0:table_y, 0:width], frame_position, time_stamp)
 
             else:
@@ -55,7 +55,7 @@ class figure_detector_border:
                                 gray_img[table_y:table_y + table_h, table_x:table_x + table_w])
                     self.previous_h = table_h
                     self.previous_w = table_w
-                    timestamp_list.timeStampList.append({frame_position: time_stamp})
+                    self.ops_obj.add_to_dict_from_figure(frame_position, time_stamp)
                     self.text_extraction_obj.extract_text_string(binary_img[0:table_y, 0:width], frame_position,
                                                                  time_stamp)
         else:

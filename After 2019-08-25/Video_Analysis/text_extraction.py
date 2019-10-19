@@ -1,12 +1,13 @@
 import cv2
 import pytesseract
 import re
-import Models.timestamp_list as timestamp_list
+import Shared.frame_dict_ops as ops
 
 pytesseract.pytesseract.tesseract_cmd = "C:\\Program Files\\Tesseract-OCR\\tesseract.exe"
 
 
 class text_extraction:
+    ops_obj = ops.dict_ops()
 
     def __init__(self):
         self.first = True
@@ -39,7 +40,4 @@ class text_extraction:
         f.write(content)
         f.write("\n\n------------------------------------------------\n\n")
         f.close()
-
-        item = {frame_position: time_stamp}
-        if item not in timestamp_list.timeStampList:
-            timestamp_list.timeStampList.append({frame_position: time_stamp})
+        self.ops_obj.add_to_dict_from_text_extract(frame_position, content, time_stamp)

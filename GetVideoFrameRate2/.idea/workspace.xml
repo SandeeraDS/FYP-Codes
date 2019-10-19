@@ -2,17 +2,73 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93848e5d-c1af-4107-b13c-8de81d9b74a8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/Models/timestamp_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../After 2019-08-25/python_string/obj/add.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../After 2019-08-25/python_string/test_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../After 2019-08-25/python_string/test_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../After 2019-08-25/python_string/test_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/Models/unique_frame_detail.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/Models/unique_frame_detail_dict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/Shared/frame_dict_ops.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/142.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/1676.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/1877.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/2081.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/2611.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/2764.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/2921.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/3523.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/421.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/4417.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/4850.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/5077.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/556.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/961.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/border_figure_detector.py" beforeDir="false" afterPath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/border_figure_detector.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/borderless_figure_detector.py" beforeDir="false" afterPath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/borderless_figure_detector.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/frame_seperator.py" beforeDir="false" afterPath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/frame_seperator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/142-Size.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/142_2-size.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/1676-Size.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/1676_2-size.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/1877-Size.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/1877_2-size.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/2081-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/2081_2-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/2336-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/2336_2-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/2611-Size.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/2611_2-size.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/2764-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/2764_2-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/2815-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/2815_2-Pixel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/2870-Size.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/2870_2-size.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/2921-Size.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/2921_2-size.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/3120-Size.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/3120_2-size.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/3523-Size.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/3523_2-size.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/421-Size.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/421_2-size.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/4417-Size.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/4417_2-size.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/4484-Size.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/4484_2-size.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/4620-Size.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/4620_2-size.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/4850-Size.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/4850_2-size.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/5077-Size.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/5077_2-size.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/556-Size.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/556_2-size.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/961-Size.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/961_2-size.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/table/1877.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/table/2764.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/text_extraction.py" beforeDir="false" afterPath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/text_extraction.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../After 2019-08-25/python_string/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../After 2019-08-25/python_string/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/python_string/obj/add.py" beforeDir="false" afterPath="$PROJECT_DIR$/../After 2019-08-25/python_string/obj/add.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/python_string/test_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../After 2019-08-25/python_string/test_1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../GetvideoFrameRate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GetvideoFrameRate/.idea/workspace.xml" afterDir="false" />
     </list>

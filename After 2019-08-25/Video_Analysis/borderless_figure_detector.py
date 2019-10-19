@@ -1,12 +1,13 @@
 import cv2
 import text_extraction
 import border_figure_detector
-import Models.timestamp_list as timestamp_list
+import Shared.frame_dict_ops as ops
 
 
 class figure_detector_borderless:
     text_extraction_obj = text_extraction.text_extraction()
     border_figure_detector_obj = border_figure_detector.figure_detector_border()
+    ops_obj = ops.dict_ops()
 
     def __init__(self):
         self.first = True
@@ -33,7 +34,7 @@ class figure_detector_borderless:
                 self.first = False
                 self.previous_h = max_y - min_y
                 self.previous_w = max_x - min_x
-                timestamp_list.timeStampList.append({frame_position: time_stamp})
+                self.ops_obj.add_to_dict_from_figure(frame_position, time_stamp)
                 self.text_extraction_obj.extract_text_string(binary_img[0:min_y, 0:width], frame_position, time_stamp)
 
             else:
@@ -44,7 +45,7 @@ class figure_detector_borderless:
                                 gray_img[min_y:max_y, min_x:max_x])
                     self.previous_h = max_y - min_y
                     self.previous_w = max_x - min_x
-                    timestamp_list.timeStampList.append({frame_position: time_stamp})
+                    self.ops_obj.add_to_dict_from_figure(frame_position, time_stamp)
                     self.text_extraction_obj.extract_text_string(binary_img[0:min_y, 0:width], frame_position,
                                                                  time_stamp)
 
@@ -64,9 +65,6 @@ class figure_detector_borderless:
 
     def find_text_boxes(self, pre, min_text_height_limit=15, max_text_height_limit=60):
         # Looking for the text spots contours
-        # OpenCV 3
-        # img, contours, hierarchy = cv2.findContours(pre, cv2.RETR_LIST, cv2.CHAIN_APPROX_SIMPLE)
-        # OpenCV 4
         im2, contours, hierarchy = cv2.findContours(pre, cv2.RETR_LIST, cv2.CHAIN_APPROX_SIMPLE)
 
         # Getting the texts bounding boxes based on the text size assumptions

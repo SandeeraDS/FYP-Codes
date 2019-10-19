@@ -1,5 +1,14 @@
-class A:
-    list = []
+class MyClass(object):
+    def __init__(self, number):
+        self.number = number
 
-    def __init__(self):
-        list.append({1:1000})
+
+my_objects = []
+
+for i in range(100):
+    my_objects.append(MyClass(i))
+
+# later
+
+for obj in my_objects:
+    print(obj)
