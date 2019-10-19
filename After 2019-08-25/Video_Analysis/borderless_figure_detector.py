@@ -1,6 +1,7 @@
 import cv2
 import text_extraction
 import border_figure_detector
+import Models.timestamp_list as timestamp_list
 
 
 class figure_detector_borderless:
@@ -32,6 +33,7 @@ class figure_detector_borderless:
                 self.first = False
                 self.previous_h = max_y - min_y
                 self.previous_w = max_x - min_x
+                timestamp_list.timeStampList.append({frame_position: time_stamp})
                 self.text_extraction_obj.extract_text_string(binary_img[0:min_y, 0:width], frame_position, time_stamp)
 
             else:
@@ -42,6 +44,7 @@ class figure_detector_borderless:
                                 gray_img[min_y:max_y, min_x:max_x])
                     self.previous_h = max_y - min_y
                     self.previous_w = max_x - min_x
+                    timestamp_list.timeStampList.append({frame_position: time_stamp})
                     self.text_extraction_obj.extract_text_string(binary_img[0:min_y, 0:width], frame_position,
                                                                  time_stamp)
 

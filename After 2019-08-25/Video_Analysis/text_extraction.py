@@ -1,6 +1,7 @@
 import cv2
 import pytesseract
 import re
+import Models.timestamp_list as timestamp_list
 
 pytesseract.pytesseract.tesseract_cmd = "C:\\Program Files\\Tesseract-OCR\\tesseract.exe"
 
@@ -38,3 +39,7 @@ class text_extraction:
         f.write(content)
         f.write("\n\n------------------------------------------------\n\n")
         f.close()
+
+        item = {frame_position: time_stamp}
+        if item not in timestamp_list.timeStampList:
+            timestamp_list.timeStampList.append({frame_position: time_stamp})
