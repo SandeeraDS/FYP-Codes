@@ -20,8 +20,8 @@ class frame_seperator:
 
             if ret:
                 # time.sleep(1 / fps)  # to run according to frame rate otherwise it go on highSpeed
-                pre_processor_obj.pre_processing(frame, frame_position)
-
+                time_stamp = self.cap.get(cv2.CAP_PROP_POS_MSEC)/1000
+                pre_processor_obj.pre_processing(frame, frame_position, time_stamp)
                 frame_position += 1
                 if cv2.waitKey(1) & 0xFF == ord('q'):
                     break

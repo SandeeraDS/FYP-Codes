@@ -12,7 +12,7 @@ class figure_detector_borderless:
         self.previous_h = 0
         self.previous_w = 0
 
-    def figure_detection_borderless(self, gray_img, binary_img, frame_position):
+    def figure_detection_borderless(self, gray_img, binary_img, frame_position, time_stamp):
         img = gray_img.copy()
         height, width = gray_img.shape
         pre_processed = self.pre_process_image(img)
@@ -22,7 +22,7 @@ class figure_detector_borderless:
         [min_x, min_y, max_x, max_y] = self.get_main_points(hor_lines, ver_lines, gray_img)
 
         if min_x == -100 and min_y == -100 and max_x == -100 and max_y == -100:
-            self.border_figure_detector_obj.figure_detection_border(gray_img, binary_img, frame_position)
+            self.border_figure_detector_obj.figure_detection_border(gray_img, binary_img, frame_position, time_stamp)
         else:
 
             if self.first:
@@ -32,7 +32,7 @@ class figure_detector_borderless:
                 self.first = False
                 self.previous_h = max_y - min_y
                 self.previous_w = max_x - min_x
-                self.text_extraction_obj.extract_text_string(binary_img[0:min_y, 0:width], frame_position)
+                self.text_extraction_obj.extract_text_string(binary_img[0:min_y, 0:width], frame_position, time_stamp)
 
             else:
                 if self.previous_w == max_x - min_x or self.previous_h == max_y - min_y:
@@ -42,7 +42,8 @@ class figure_detector_borderless:
                                 gray_img[min_y:max_y, min_x:max_x])
                     self.previous_h = max_y - min_y
                     self.previous_w = max_x - min_x
-                    self.text_extraction_obj.extract_text_string(binary_img[0:min_y, 0:width], frame_position)
+                    self.text_extraction_obj.extract_text_string(binary_img[0:min_y, 0:width], frame_position,
+                                                                 time_stamp)
 
     def pre_process_image(self, img):
         # linear contrast stretching

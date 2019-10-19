@@ -2,19 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1160f5d0-6a58-4b6f-87b1-02347389b365" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/borderless_figure_detector.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Table Detection/Test_01 - table with borders/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Table Detection/Test_01 - table with borders/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Table Detection/Test_02- table without borders/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Table Detection/Test_02- table without borders/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Table Detection/Test_02- table without borders/Project.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Table Detection/Test_02- table without borders/Project.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/border_figure_detector.py" beforeDir="false" afterPath="$PROJECT_DIR$/border_figure_detector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/borderless_figure_detector.py" beforeDir="false" afterPath="$PROJECT_DIR$/borderless_figure_detector.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frame_seperator.py" beforeDir="false" afterPath="$PROJECT_DIR$/frame_seperator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pre_processor.py" beforeDir="false" afterPath="$PROJECT_DIR$/pre_processor.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/text_contour_detector.py" beforeDir="false" afterPath="$PROJECT_DIR$/text_contour_detector.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/text_extraction.py" beforeDir="false" afterPath="$PROJECT_DIR$/text_extraction.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unique_frame_detector.py" beforeDir="false" afterPath="$PROJECT_DIR$/unique_frame_detector.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../python_string/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../python_string/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetVideoFrameRate2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../GetVideoFrameRate2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetVideoFrameRate2/Project.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../GetVideoFrameRate2/Project.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetvideoFrameRate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../GetvideoFrameRate/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +103,7 @@
       <workItem from="1571316067460" duration="3310000" />
       <workItem from="1571369079801" duration="22707000" />
       <workItem from="1571402141345" duration="307000" />
-      <workItem from="1571452449560" duration="10664000" />
+      <workItem from="1571452449560" duration="13724000" />
     </task>
     <servers />
   </component>
@@ -123,6 +124,6 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Video_Analysis$main.coverage" NAME="main Coverage Results" MODIFIED="1571470413521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Video_Analysis$main.coverage" NAME="main Coverage Results" MODIFIED="1571476351750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

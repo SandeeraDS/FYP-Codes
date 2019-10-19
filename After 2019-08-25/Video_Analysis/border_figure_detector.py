@@ -10,7 +10,7 @@ class figure_detector_border:
         self.previous_h = 0
         self.previous_w = 0
 
-    def figure_detection_border(self, gray_img, binary_img, frame_position):
+    def figure_detection_border(self, gray_img, binary_img, frame_position, time_stamp):
 
         img = gray_img.copy()
         height, width = gray_img.shape
@@ -43,7 +43,7 @@ class figure_detector_border:
                 self.first = False
                 self.previous_h = table_h
                 self.previous_w = table_w
-                self.text_extraction_obj.extract_text_string(binary_img[0:table_y, 0:width], frame_position)
+                self.text_extraction_obj.extract_text_string(binary_img[0:table_y, 0:width], frame_position, time_stamp)
 
             else:
                 if self.previous_w == table_w or self.previous_h == table_h:
@@ -53,6 +53,7 @@ class figure_detector_border:
                                 gray_img[table_y:table_y + table_h, table_x:table_x + table_w])
                     self.previous_h = table_h
                     self.previous_w = table_w
-                    self.text_extraction_obj.extract_text_string(binary_img[0:table_y, 0:width], frame_position)
+                    self.text_extraction_obj.extract_text_string(binary_img[0:table_y, 0:width], frame_position,
+                                                                 time_stamp)
         else:
-            self.text_extraction_obj.extract_text_string(binary_img, frame_position)
+            self.text_extraction_obj.extract_text_string(binary_img, frame_position, time_stamp)

@@ -11,7 +11,7 @@ class unque_frame_detector:
         self.skipCountBySize = 0
         self.skipCountByPixel = 0
 
-    def detect_unique(self, img, img_empty, height, frame_position, max_width, max_width_x):
+    def detect_unique(self, img, img_empty, height, frame_position, time_stamp, max_width, max_width_x):
 
         if max_width > 180:
 
@@ -50,7 +50,8 @@ class unque_frame_detector:
                             cv2.imwrite("image/" + str(frame_position - 50) + "-Pixel" + ".jpg", img)
                             cv2.imwrite("image/" + str(frame_position - 50) + "_2-Pixel" + ".jpg", img_empty)
                             self.borderless_figure_detector_obj.figure_detection_borderless(img, img_empty,
-                                                                                            frame_position - 50)
+                                                                                            frame_position - 50,
+                                                                                            time_stamp)
                 else:
 
                     self.skipCountBySize += 1
@@ -64,6 +65,6 @@ class unque_frame_detector:
                         cv2.imwrite("image/" + str(frame_position - 50) + "-Size" + ".jpg", img)
                         cv2.imwrite("image/" + str(frame_position - 50) + "_2-size" + ".jpg", img_empty)
                         self.borderless_figure_detector_obj.figure_detection_borderless(img, img_empty,
-                                                                                        frame_position - 50)
+                                                                                        frame_position - 50, time_stamp)
 
         cv2.imshow("video", img)

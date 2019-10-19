@@ -11,17 +11,17 @@ class text_extraction:
         self.first = True
         self.previous_content = None
 
-    def extract_text_string(self, image, frame_position):
+    def extract_text_string(self, image, frame_position, time_stamp):
         cv2.imshow("ocr_img", image)
         content = pytesseract.image_to_string(image, lang='eng')
 
         if len(content) > 4:
-            self.string_manipulation(content.strip(), frame_position)
+            self.string_manipulation(content.strip(), frame_position, time_stamp)
 
-    def string_manipulation(self, content, frame_position):
+    def string_manipulation(self, content, frame_position, time_stamp):
 
         if self.first:
-            self.write_to_textfile(content, frame_position)
+            self.write_to_textfile(content, frame_position, time_stamp)
             self.first = False
             self.previous_content = content
         else:
@@ -30,9 +30,9 @@ class text_extraction:
 
             if previous_trim_content != current_trim_content:
                 self.previous_content = content
-                self.write_to_textfile(content, frame_position)
+                self.write_to_textfile(content, frame_position, time_stamp)
 
-    def write_to_textfile(self, content, frame_position):
+    def write_to_textfile(self, content, frame_position, time_stamp):
         f = open(str(frame_position) + ".txt", "w+")
         f.write("------------------------------------------------\n\n")
         f.write(content)
