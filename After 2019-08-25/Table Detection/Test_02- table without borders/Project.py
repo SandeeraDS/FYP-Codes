@@ -9,27 +9,23 @@ import cv2
 #  - min_columns
 
 
-def pre_process_image(img, save_in_file, morph_size=(8, 8)):
+def pre_process_image(img):
     img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     # linear contrast stretching
     minmax_img = cv2.normalize(img, 0, 255, norm_type=cv2.NORM_MINMAX)
     # Sobel
-    # sobel_img_x = cv2.Sobel(minmax_img, cv2.CV_8U, 1, 0, ksize=3)
     sobel_img_x = cv2.Sobel(minmax_img, cv2.CV_8U, 1, 0, ksize=3)
-    sobel_img_y = cv2.Sobel(minmax_img, cv2.CV_8U, 0, 1, ksize=3)
-    sobel = cv2.addWeighted(sobel_img_x, 2, sobel_img_y, 2, 0)
-    # edges = cv2.Canny(img, 120, 200, apertureSize=3)
     # thresholding
     retval, threshold = cv2.threshold(sobel_img_x, 96, 255, cv2.THRESH_BINARY)
     # Dilation
     kernel = cv2.getStructuringElement(cv2.MORPH_RECT, ksize=(14, 3), anchor=(-1, -1))
     img_dilate = cv2.morphologyEx(threshold, cv2.MORPH_DILATE, kernel, anchor=(-1, -1), iterations=3,
                                   borderType=cv2.BORDER_REFLECT, borderValue=255)
-    cv2.imshow("img1", img_dilate)
+    cv2.imshow("pre_processsing", img_dilate)
     return img_dilate
 
 
-def find_text_boxes(img, pre, min_text_height_limit=15, max_text_height_limit=60):
+def find_text_boxes(pre, min_text_height_limit=15, max_text_height_limit=60):
     # Looking for the text spots contours
     # OpenCV 3
     # img, contours, hierarchy = cv2.findContours(pre, cv2.RETR_LIST, cv2.CHAIN_APPROX_SIMPLE)
@@ -44,14 +40,10 @@ def find_text_boxes(img, pre, min_text_height_limit=15, max_text_height_limit=60
 
         if min_text_height_limit < h < max_text_height_limit:
             boxes.append(box)
-    #     for r in boxes:
-    #         # draw region of interest
-    #         cv2.rectangle(img, (r[0], r[1]), (r[0] + r[2], r[1] + r[3]), (0, 0, 0), 2)
-    # cv2.imshow("img3", img)
     return boxes
 
 
-def find_table_in_boxes(img ,boxes, cell_threshold=20, min_columns=2):
+def find_table_in_boxes(boxes, min_columns=2):
     rows = {}
     cols = {}
 
@@ -106,13 +98,13 @@ def build_lines(table_cells):
 # img = cv2.imread("12.jpg")
 # img = cv2.imread("15.jpg")
 # img = cv2.imread("20.jpg")
-# img = cv2.imread("13.jpg")
-img = cv2.imread("06.jpg")
+img = cv2.imread("13.jpg")
+# img = cv2.imread("11.jpg")
 
 
-pre_processed = pre_process_image(img, img)
-text_boxes = find_text_boxes(img, pre_processed)
-cells = find_table_in_boxes(img, text_boxes)
+pre_processed = pre_process_image(img)
+text_boxes = find_text_boxes(pre_processed)
+cells = find_table_in_boxes(text_boxes)
 hor_lines, ver_lines = build_lines(cells)
 
 # Visualize the result
@@ -121,22 +113,51 @@ final_box = []
 if len(ver_lines) > 2 and not ver_lines[0][3]-ver_lines[0][1] < 150:
     final_box.append(ver_lines[0])
     final_box.append(ver_lines[len(ver_lines)-1])
+    print("if 1")
 
-print("-----")
-print(len(final_box))
 if len(hor_lines) > 2 and len(final_box) !=0 and not (hor_lines[0][2]-hor_lines[0][0] < 150):
     final_box.append(hor_lines[0])
     final_box.append(hor_lines[len(hor_lines)-1])
-    print(final_box)
+    print("if 2")
+
 else:
     print("exit")
 
+min_x = 2000000
+min_y = 2000000
+max_x = -1
+max_y = -1
+
+
 if len(final_box) == 4:
     for line in final_box:
-        # print(line)
         [x1, y1, x2, y2] = line
-        cv2.line(vis, (x1, y1), (x2, y2), (255, 0, 0), 2)
+
+        if min_x > x1:
+            min_x = x1
+        if min_x > x2:
+            min_x = x2
+        if max_x < x1:
+            max_x = x1
+        if max_x < x2:
+            max_x = x2
+
+        if min_y > y1:
+            min_y = y1
+        if min_y > y2:
+            min_y = y2
+        if max_y < y1:
+            max_y = y1
+        if max_y < y2:
+            max_y = y2
 
 
-cv2.imshow("img2", vis)
+
+        # print("final")
+        # cv2.line(vis, (x1, y1), (x2, y2), (255, 0, 0), 2)
+        # break
+
+# cv2.line(vis, (min_x, min_y), (max_x, max_y), (255, 0, 0), 2)
+# cv2.rectangle(vis, (min_x, min_y-15), (max_x, max_y+10), (255, 0, 0), 2)
+cv2.imshow("img2", vis[min_y:max_y,min_x:max_x])
 cv2.waitKey(0)

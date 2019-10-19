@@ -1,11 +1,9 @@
 import cv2
-import text_extraction
-import border_figure_detector
+import borderless_figure_detector
+
 
 class unque_frame_detector:
-
-    text_extraction_obj = text_extraction.text_extraction()
-    border_figure_detector_obj = border_figure_detector.figure_detector_border()
+    borderless_figure_detector_obj = borderless_figure_detector.figure_detector_borderless()
 
     def __init__(self):
         self.previous_image = None
@@ -51,7 +49,8 @@ class unque_frame_detector:
                             # cv2.imshow("result", img)
                             cv2.imwrite("image/" + str(frame_position - 50) + "-Pixel" + ".jpg", img)
                             cv2.imwrite("image/" + str(frame_position - 50) + "_2-Pixel" + ".jpg", img_empty)
-                            self.border_figure_detector_obj.figure_detection_border(img, img_empty, frame_position-50)
+                            self.borderless_figure_detector_obj.figure_detection_borderless(img, img_empty,
+                                                                                            frame_position - 50)
                 else:
 
                     self.skipCountBySize += 1
@@ -60,11 +59,11 @@ class unque_frame_detector:
                         self.skipCountByPixel = 0
                         self.skipCountBySize = 0
 
-
                         self.previous_image = crop_img
                         # cv2.imshow("result", img)
                         cv2.imwrite("image/" + str(frame_position - 50) + "-Size" + ".jpg", img)
                         cv2.imwrite("image/" + str(frame_position - 50) + "_2-size" + ".jpg", img_empty)
-                        self.border_figure_detector_obj.figure_detection_border(img, img_empty, frame_position-50)
+                        self.borderless_figure_detector_obj.figure_detection_borderless(img, img_empty,
+                                                                                        frame_position - 50)
 
         cv2.imshow("video", img)

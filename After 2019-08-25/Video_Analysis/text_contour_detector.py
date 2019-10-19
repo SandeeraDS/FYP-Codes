@@ -4,14 +4,12 @@ import unique_frame_detector
 
 
 class text_contour_detector:
-
     obj = unique_frame_detector.unque_frame_detector()
 
     def __init__(self):
         pass
 
     def contour_detection(self, img, img_dialate, frame_position):
-
 
         # Find Contours
         im2, contours, hierarchy = cv2.findContours(img_dialate, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
@@ -30,10 +28,9 @@ class text_contour_detector:
                     max_width = brect[2]
                     max_width_x = brect[0]
 
-        self.draw_contour(img, list, max_width, max_width_x,frame_position)
+        self.draw_contour(img, list, max_width, max_width_x, frame_position)
 
-
-    def draw_contour(self, img, list, max_width, max_width_x,frame_position):
+    def draw_contour(self, img, list, max_width, max_width_x, frame_position):
 
         height, width = img.shape
         img_empty = np.zeros([height, width], dtype=np.uint8)
@@ -46,6 +43,5 @@ class text_contour_detector:
             img_dilate = cv2.dilate(threshold, kernel, iterations=1)
             img_erode = cv2.erode(img_dilate, kernel, iterations=1)
             img_empty[r[1]:r[1] + r[3], r[0]:r[0] + r[2]] = img_erode
-
 
         self.obj.detect_unique(img, img_empty, height, frame_position, max_width, max_width_x)

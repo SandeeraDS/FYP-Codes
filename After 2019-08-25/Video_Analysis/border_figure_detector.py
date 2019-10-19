@@ -1,12 +1,12 @@
 import cv2
 import text_extraction
 
-class figure_detector_border:
 
+class figure_detector_border:
     text_extraction_obj = text_extraction.text_extraction()
 
     def __init__(self):
-        self.first =True
+        self.first = True
         self.previous_h = 0
         self.previous_w = 0
 
@@ -33,26 +33,26 @@ class figure_detector_border:
                 table_y = y
                 table_h = h
                 table_w = w
-        if not table_x == -1 and not table_y == -1 and not table_h>height-50:
+        if not table_x == -1 and not table_y == -1 and not table_h > height - 50:
 
             if self.first:
 
-                cv2.imwrite("table/" + str(frame_position) + "-Size" + ".jpg",
+                cv2.imwrite("table/" + str(frame_position) + ".jpg",
                             gray_img[table_y:table_y + table_h, table_x:table_x + table_w])
 
-                self.first=False
+                self.first = False
                 self.previous_h = table_h
                 self.previous_w = table_w
                 self.text_extraction_obj.extract_text_string(binary_img[0:table_y, 0:width], frame_position)
 
             else:
                 if self.previous_w == table_w or self.previous_h == table_h:
-                        pass
+                    pass
                 else:
-                    cv2.imwrite("table/" + str(frame_position) + "-Size" + ".jpg",
-                                gray_img[table_y:table_y+table_h, table_x:table_x+table_w])
+                    cv2.imwrite("table/" + str(frame_position) + ".jpg",
+                                gray_img[table_y:table_y + table_h, table_x:table_x + table_w])
                     self.previous_h = table_h
                     self.previous_w = table_w
                     self.text_extraction_obj.extract_text_string(binary_img[0:table_y, 0:width], frame_position)
         else:
-             self.text_extraction_obj.extract_text_string(binary_img, frame_position)
+            self.text_extraction_obj.extract_text_string(binary_img, frame_position)
