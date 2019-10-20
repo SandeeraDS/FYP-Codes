@@ -2,73 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5038f82-6994-434c-a3ae-a5bd9f959fa4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/Models/unique_frame_detail.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/Models/unique_frame_detail_dict.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/Shared/frame_dict_ops.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/142.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/1676.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/1877.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/2081.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/2611.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/2764.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/2921.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/3523.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/421.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/4417.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/4850.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/5077.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/556.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/961.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/border_figure_detector.py" beforeDir="false" afterPath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/border_figure_detector.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/borderless_figure_detector.py" beforeDir="false" afterPath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/borderless_figure_detector.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/frame_seperator.py" beforeDir="false" afterPath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/frame_seperator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/142-Size.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/142_2-size.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/1676-Size.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/1676_2-size.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/1877-Size.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/1877_2-size.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/2081-Pixel.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/2081_2-Pixel.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/2336-Pixel.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/2336_2-Pixel.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/2611-Size.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/2611_2-size.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/2764-Pixel.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/2764_2-Pixel.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/2815-Pixel.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/2815_2-Pixel.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/2870-Size.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/2870_2-size.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/2921-Size.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/2921_2-size.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/3120-Size.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/3120_2-size.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/3523-Size.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/3523_2-size.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/421-Size.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/421_2-size.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/4417-Size.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/4417_2-size.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/4484-Size.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/4484_2-size.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/4620-Size.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/4620_2-size.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/4850-Size.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/4850_2-size.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/5077-Size.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/5077_2-size.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/556-Size.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/556_2-size.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/961-Size.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/image/961_2-size.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/table/1877.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/table/2764.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/text_extraction.py" beforeDir="false" afterPath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/text_extraction.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/python_string/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../After 2019-08-25/python_string/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/python_string/obj/add.py" beforeDir="false" afterPath="$PROJECT_DIR$/../After 2019-08-25/python_string/obj/add.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/python_string/test_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../After 2019-08-25/python_string/test_1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../GetVideoFrameRate2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GetVideoFrameRate2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -93,7 +27,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -153,6 +87,7 @@
       <workItem from="1559011408440" duration="259000" />
       <workItem from="1559048296387" duration="310000" />
       <workItem from="1571473735352" duration="618000" />
+      <workItem from="1571539931090" duration="43000" />
     </task>
     <servers />
   </component>
@@ -164,7 +99,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
