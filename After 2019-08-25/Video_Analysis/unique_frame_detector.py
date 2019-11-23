@@ -14,7 +14,7 @@ class unique_frame_detector:
         self.skipCountByPixel = 0
 
     # method - to detect unique frame using localize text width changes and number of pixel value changes
-    def detect_unique(self, img, img_empty, height, frame_position, time_stamp, max_width, max_width_x):
+    def detect_unique(self, img, img_empty, height, frame_position, time_stamp, max_width, max_width_x,gray_blank_img):
         # to be a suitable frame, max_width of a contour in a frame should larger than 180
         if max_width > 180:
             # check is this the first selected frame and set first values for previous_image
@@ -54,6 +54,7 @@ class unique_frame_detector:
                             # save binary and grey image in image directory
                             cv2.imwrite("image/" + str(frame_position - 50) + "-Pixel" + ".jpg", img)
                             cv2.imwrite("image/" + str(frame_position - 50) + "_2-Pixel" + ".jpg", img_empty)
+                            cv2.imwrite("gray/" + str(frame_position - 50) + ".jpg", gray_blank_img)
                             # method call
                             self.borderless_figure_detector_obj.figure_detection_borderless(img, img_empty,
                                                                                             frame_position - 50,
@@ -71,6 +72,7 @@ class unique_frame_detector:
                         # save binary and grey image in image directory
                         cv2.imwrite("image/" + str(frame_position - 50) + "-Size" + ".jpg", img)
                         cv2.imwrite("image/" + str(frame_position - 50) + "_2-size" + ".jpg", img_empty)
+                        cv2.imwrite("gray/" + str(frame_position - 50) + ".jpg", gray_blank_img)
                         # method call
                         self.borderless_figure_detector_obj.figure_detection_borderless(img, img_empty,
                                                                                         frame_position - 50, time_stamp)

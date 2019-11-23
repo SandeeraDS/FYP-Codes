@@ -42,7 +42,8 @@ class text_contour_detector:
         # create a blank image using dimension of frame to store content get from contour
         img_empty = np.zeros([height, width], dtype=np.uint8)
         img_empty.fill(255)
-
+        gray_blank_img = np.ones([height, width], dtype=np.uint8)
+        gray_blank_img.fill(255)
         # set localize text into blank image-so now no effect of person
         for r in contours_list:
             # pre-processing for localized text
@@ -53,5 +54,7 @@ class text_contour_detector:
             img_erode = cv2.erode(img_dilate, kernel, iterations=1)
             # set to blank image with correct place
             img_empty[r[1]:r[1] + r[3], r[0]:r[0] + r[2]] = img_erode
+            gray_blank_img[r[1]:r[1] + r[3], r[0]:r[0] + r[2]] = img[r[1]:r[1] + r[3], r[0]:r[0] + r[2]]
         # method call
-        self.obj.detect_unique(img, img_empty, height, frame_position, time_stamp, max_width, max_width_x)
+        # cv2.imshow("grayScale",gray_blank_img)
+        self.obj.detect_unique(img, img_empty, height, frame_position, time_stamp, max_width, max_width_x,gray_blank_img)

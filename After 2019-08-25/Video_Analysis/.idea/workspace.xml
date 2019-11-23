@@ -2,21 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1160f5d0-6a58-4b6f-87b1-02347389b365" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/GL_62M_7RDX.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_output_tes/.idea/final_output_tes.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_output_tes/frame_details.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_output_tes/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_output_tes/stringTest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new ocr Approch/create_gray_image/.idea/create_gray_image.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new ocr Approch/create_gray_image/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new ocr Approch/ocr_test/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new ocr Approch/ocr_test/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new ocr Approch/ocr_test/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new ocr Approch/ocr_test/.idea/ocr_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new ocr Approch/ocr_test/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new ocr Approch/ocr_test/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new ocr Approch/ocr_test/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new ocr Approch/ocr_test/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new ocr Approch/ocr_test/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/unique_frame_detail.py" beforeDir="false" afterPath="$PROJECT_DIR$/Models/unique_frame_detail.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shared/frame_dict_ops.py" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/frame_dict_ops.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/border_figure_detector.py" beforeDir="false" afterPath="$PROJECT_DIR$/border_figure_detector.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/borderless_figure_detector.py" beforeDir="false" afterPath="$PROJECT_DIR$/borderless_figure_detector.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frame_seperator.py" beforeDir="false" afterPath="$PROJECT_DIR$/frame_seperator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pre_processor.py" beforeDir="false" afterPath="$PROJECT_DIR$/pre_processor.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/text_contour_detector.py" beforeDir="false" afterPath="$PROJECT_DIR$/text_contour_detector.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/text_extraction.py" beforeDir="false" afterPath="$PROJECT_DIR$/text_extraction.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unique_frame_detector.py" beforeDir="false" afterPath="$PROJECT_DIR$/unique_frame_detector.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GetVideoFrameRate2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../GetVideoFrameRate2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GetvideoFrameRate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../GetvideoFrameRate/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OCR Tests/ocr_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../OCR Tests/ocr_1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TextDetection/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../TextDetection/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TextDetection/Project.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../TextDetection/Project.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +47,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Note Generation for Online Lecture Video(FYP)/Video_Analysis" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -105,7 +111,9 @@
       <workItem from="1571369079801" duration="22707000" />
       <workItem from="1571402141345" duration="307000" />
       <workItem from="1571452449560" duration="22876000" />
-      <workItem from="1571539987139" duration="10963000" />
+      <workItem from="1571539987139" duration="11162000" />
+      <workItem from="1571552257521" duration="88000" />
+      <workItem from="1574234818699" duration="3253000" />
     </task>
     <servers />
   </component>
@@ -126,6 +134,6 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Video_Analysis$main.coverage" NAME="main Coverage Results" MODIFIED="1571550914470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Video_Analysis$main.coverage" NAME="main Coverage Results" MODIFIED="1574236825817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

@@ -2,39 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48a9965e-14b6-44d5-9be0-b32689fce885" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/GetDifferentFrames/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../After 2019-08-25/GetDifferentFrames/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../After 2019-08-25/devide_data_set/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../After 2019-08-25/final_output_tes/.idea/final_output_tes.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../After 2019-08-25/final_output_tes/frame_details.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../After 2019-08-25/final_output_tes/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../After 2019-08-25/final_output_tes/stringTest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../After 2019-08-25/new ocr Approch/create_gray_image/.idea/create_gray_image.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../After 2019-08-25/new ocr Approch/create_gray_image/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../After 2019-08-25/new ocr Approch/ocr_test/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../After 2019-08-25/new ocr Approch/ocr_test/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../After 2019-08-25/new ocr Approch/ocr_test/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../After 2019-08-25/new ocr Approch/ocr_test/.idea/ocr_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../After 2019-08-25/new ocr Approch/ocr_test/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../After 2019-08-25/new ocr Approch/ocr_test/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../After 2019-08-25/new ocr Approch/ocr_test/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../After 2019-08-25/new ocr Approch/ocr_test/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../After 2019-08-25/new ocr Approch/ocr_test/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../After 2019-08-25/new ocr Approch/ocr_test_02/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../After 2019-08-25/GetDifferentFrames/02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../After 2019-08-25/GetDifferentFrames/02/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/GetDifferentFrames/02/1025.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/GetDifferentFrames/02/1535.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/GetDifferentFrames/02/1637.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/GetDifferentFrames/02/2069.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/GetDifferentFrames/02/360.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/GetDifferentFrames/02/821.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/GetDifferentFrames/02/image/1075-size.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/GetDifferentFrames/02/image/1075_2-size.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/GetDifferentFrames/02/image/1585-size.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/GetDifferentFrames/02/image/1585_2-size.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/GetDifferentFrames/02/image/1687-size.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/GetDifferentFrames/02/image/1687_2-size.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/GetDifferentFrames/02/image/1831-Pixel.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/GetDifferentFrames/02/image/1831_2-Pixel.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/GetDifferentFrames/02/image/195-Pixel.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/GetDifferentFrames/02/image/195_2-Pixel.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/GetDifferentFrames/02/image/2119-Pixel.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/GetDifferentFrames/02/image/2119_2-Pixel.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/GetDifferentFrames/02/image/2341-Pixel.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/GetDifferentFrames/02/image/2341_2-Pixel.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/GetDifferentFrames/02/image/410-Pixel.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/GetDifferentFrames/02/image/410_2-Pixel.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/GetDifferentFrames/02/image/871-Pixel.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/GetDifferentFrames/02/image/871_2-Pixel.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../After 2019-08-25/GetDifferentFrames/02/project.py" beforeDir="false" afterPath="$PROJECT_DIR$/../After 2019-08-25/GetDifferentFrames/02/project.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Table Detection/Test_01 - table with borders/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../After 2019-08-25/Table Detection/Test_01 - table with borders/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Table Detection/Test_01 - table with borders/Project.py" beforeDir="false" afterPath="$PROJECT_DIR$/../After 2019-08-25/Table Detection/Test_01 - table with borders/Project.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Table Detection/Test_02- table without borders/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../After 2019-08-25/Table Detection/Test_02- table without borders/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Table Detection/Test_02- table without borders/Project.py" beforeDir="false" afterPath="$PROJECT_DIR$/../After 2019-08-25/Table Detection/Test_02- table without borders/Project.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/seperate localized text/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../After 2019-08-25/seperate localized text/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/seperate localized text/Project.py" beforeDir="false" afterPath="$PROJECT_DIR$/../After 2019-08-25/seperate localized text/Project.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/text_contour_detector.py" beforeDir="false" afterPath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/text_contour_detector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/unique_frame_detector.py" beforeDir="false" afterPath="$PROJECT_DIR$/../After 2019-08-25/Video_Analysis/unique_frame_detector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCR Tests/ocr_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OCR Tests/ocr_1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project.py" afterDir="false" />
     </list>
@@ -43,22 +33,6 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Project.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -70,15 +44,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$USER_HOME$/Downloads/Compressed/text-detection-master/text-detection-master/TextDetect.py" />
-        <option value="$PROJECT_DIR$/../After 2019-08-25/seperate localized text/Project.py" />
-        <option value="$PROJECT_DIR$/Project.py" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectConfigurationFiles">
     <option name="files">
       <list>
@@ -89,25 +54,14 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-280" />
-    <option name="y" value="70" />
-    <option name="width" value="1940" />
-    <option name="height" value="1050" />
-  </component>
+  <component name="ProjectId" id="1SXftTHSgVmnZ9Ec1lKRqCAPc8q" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../After 2019-08-25/Table Detection/Test_01 - table with borders" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Note Generation for Online Lecture Video(FYP)/Video_Analysis" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -234,90 +188,37 @@
       <workItem from="1568681263860" duration="59000" />
       <workItem from="1568681323800" duration="16000" />
       <workItem from="1568681412808" duration="6220000" />
+      <workItem from="1571715078103" duration="908000" />
+      <workItem from="1571782900774" duration="761000" />
+      <workItem from="1571790618834" duration="49000" />
+      <workItem from="1573301209559" duration="612000" />
+      <workItem from="1573870925061" duration="1689000" />
+      <workItem from="1574131375777" duration="101000" />
+      <workItem from="1574479628436" duration="11556000" />
+      <workItem from="1574501808776" duration="1305000" />
+      <workItem from="1574513255885" duration="1680000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64326000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.29088473" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4966488" weight="0.2446959" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5033512" side_tool="true" visible="true" weight="0.2446959" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26675603" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2446959" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/TextDetection$Project.coverage" NAME="Project Coverage Results" MODIFIED="1568687840564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/TextDetection$Project__1_.coverage" NAME="Project (1) Coverage Results" MODIFIED="1568681442938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../After 2019-08-25/seperate localized text" />
-    <SUITE FILE_PATH="coverage/TextDetection$TextDetect.coverage" NAME="TextDetect Coverage Results" MODIFIED="1559585092289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads/Compressed/text-detection-master/text-detection-master" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Downloads/Compressed/text-detection-master/text-detection-master/TextDetect.py" />
-    <entry file="file://$PROJECT_DIR$/../After 2019-08-25/seperate localized text/Project.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Project.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/TextDetection$TextDetect.coverage" NAME="TextDetect Coverage Results" MODIFIED="1559585092289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads/Compressed/text-detection-master/text-detection-master" />
+    <SUITE FILE_PATH="coverage/TextDetection$Project.coverage" NAME="Project Coverage Results" MODIFIED="1574501817244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TextDetection$Project__1_.coverage" NAME="Project (1) Coverage Results" MODIFIED="1568681442938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../After 2019-08-25/seperate localized text" />
   </component>
 </project>
