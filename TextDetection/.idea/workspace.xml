@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/../.scannerwork/pylint/0.out" beforeDir="false" afterPath="$PROJECT_DIR$/../.scannerwork/pylint/0.out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.scannerwork/report-task.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../.scannerwork/report-task.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -176,7 +175,7 @@
       <workItem from="1574479628436" duration="11556000" />
       <workItem from="1574501808776" duration="1305000" />
       <workItem from="1574513255885" duration="1680000" />
-      <workItem from="1575073455571" duration="2060000" />
+      <workItem from="1575073455571" duration="2232000" />
     </task>
     <servers />
   </component>
@@ -198,7 +197,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/TextDetection$TextDetect.coverage" NAME="TextDetect Coverage Results" MODIFIED="1559585092289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads/Compressed/text-detection-master/text-detection-master" />
-    <SUITE FILE_PATH="coverage/TextDetection$Project.coverage" NAME="Project Coverage Results" MODIFIED="1575076580918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TextDetection$Project.coverage" NAME="Project Coverage Results" MODIFIED="1575076737595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/TextDetection$Project__1_.coverage" NAME="Project (1) Coverage Results" MODIFIED="1568681442938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../After 2019-08-25/seperate localized text" />
   </component>
 </project>
