@@ -1,5 +1,4 @@
 import cv2
-import time
 import numpy as np
 
 # input video file
@@ -47,7 +46,7 @@ def detectText(image):
     sobel_img_x = cv2.Sobel(minmax_img, cv2.CV_8U, 1, 0, ksize=3)
 
     # threshold
-    retval, threshold = cv2.threshold(sobel_img_x, 244, 255, cv2.THRESH_BINARY)
+    threshold = cv2.threshold(sobel_img_x, 244, 255, cv2.THRESH_BINARY)[1]
 
     # Dilation
     kernel = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, ksize=(13, 2), anchor=(-1, -1))
@@ -79,12 +78,12 @@ if not cap.isOpened():
     print('ERROR FILE NOT FOUND OR WRONG CODEC USED!')
 
 while cap.isOpened():
-    ret, frame = cap.read()
+    ret, FRAME = cap.read()
 
     if ret:
         # time.sleep(1 / fps)  # to run according to frame rate otherwise it go on highSpeed
         # convert BGR to GrayScale
-        detectText(frame)
+        detectText(FRAME)
 
         if cv2.waitKey(1) & 0xFF == ord('q'):
             break

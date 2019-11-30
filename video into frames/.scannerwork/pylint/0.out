@@ -1,0 +1,15 @@
+************* Module VideoFrames
+Split frames in a Video\VideoFrames.py:1: [C0103(invalid-name), ] Module name "VideoFrames" doesn't conform to snake_case naming style
+Split frames in a Video\VideoFrames.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+Split frames in a Video\VideoFrames.py:3: [C0103(invalid-name), ] Constant name "cap" doesn't conform to UPPER_CASE naming style
+Split frames in a Video\VideoFrames.py:3: [E1101(no-member), ] Module 'cv2' has no 'VideoCapture' member
+Split frames in a Video\VideoFrames.py:7: [C0103(invalid-name), ] Constant name "count" doesn't conform to UPPER_CASE naming style
+Split frames in a Video\VideoFrames.py:10: [C0103(invalid-name), ] Constant name "ret" doesn't conform to UPPER_CASE naming style
+Split frames in a Video\VideoFrames.py:10: [C0103(invalid-name), ] Constant name "frame" doesn't conform to UPPER_CASE naming style
+Split frames in a Video\VideoFrames.py:13: [E1101(no-member), ] Module 'cv2' has no 'imwrite' member
+
+--------------------------------------------------------------------
+
+Your code has been rated at -4.55/10 (previous run: -8.33/10, +3.79)
+
+

@@ -97,8 +97,8 @@ def build_lines(table_cells):
 
 # img = cv2.imread("12.jpg")
 # img = cv2.imread("15.jpg")
-# img = cv2.imread("20.jpg")
-img = cv2.imread("13.jpg")
+img = cv2.imread("20.jpg")
+# img = cv2.imread("07.jpg")
 # img = cv2.imread("11.jpg")
 
 
