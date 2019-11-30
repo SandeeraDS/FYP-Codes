@@ -54,7 +54,7 @@ def detectText(image):
                                   borderType=cv2.BORDER_REFLECT, borderValue=255)
     cv2.imshow("dialte", img_dilate)
     # Find Contours
-    im2, contours, hierarchy = cv2.findContours(img_dilate, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+    contours = cv2.findContours(img_dilate, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)[1]
 
     # GeaomatricalConstraints
     list = []
@@ -66,9 +66,9 @@ def detectText(image):
         if ar >= 2.7 and brect[2] >= 40 and 22 <= brect[3] <= 60:  # 2->w 3->h
             list.append(brect)
 
-    for r in list:
+    for element in list:
         # draw region of interest
-        cv2.rectangle(image, (r[0], r[1]), (r[0] + r[2], r[1] + r[3]), (250, 0, 0), 2)
+        cv2.rectangle(image, (element[0], element[1]), (element[0] + element[2], element[1] + element[3]), (250, 0, 0), 2)
 
     cv2.imshow('frame', image)
     # cv2.imshow('frame2', img_dilate)
@@ -78,9 +78,9 @@ if not cap.isOpened():
     print('ERROR FILE NOT FOUND OR WRONG CODEC USED!')
 
 while cap.isOpened():
-    ret, FRAME = cap.read()
+    RET, FRAME = cap.read()
 
-    if ret:
+    if RET:
         # time.sleep(1 / fps)  # to run according to frame rate otherwise it go on highSpeed
         # convert BGR to GrayScale
         detectText(FRAME)
