@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # input video file
-cap = cv2.VideoCapture('../../FYP Videos/table_05.mp4')
+cap = cv2.VideoCapture('../../FYP Videos/3.mp4')
 # get frame rate
 fps = cap.get(cv2.CAP_PROP_FPS)
 
@@ -46,7 +46,7 @@ def detectText(image):
     sobel_img_x = cv2.Sobel(minmax_img, cv2.CV_8U, 1, 0, ksize=3)
 
     # threshold
-    threshold = cv2.threshold(sobel_img_x, 244, 255, cv2.THRESH_BINARY)[1]
+    retval, threshold = cv2.threshold(sobel_img_x, 244, 255, cv2.THRESH_BINARY)
 
     # Dilation
     kernel = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, ksize=(13, 2), anchor=(-1, -1))
@@ -54,7 +54,7 @@ def detectText(image):
                                   borderType=cv2.BORDER_REFLECT, borderValue=255)
     cv2.imshow("dialte", img_dilate)
     # Find Contours
-    contours = cv2.findContours(img_dilate, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)[1]
+    im2, contours, hierarchy = cv2.findContours(img_dilate, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
 
     # GeaomatricalConstraints
     list = []
