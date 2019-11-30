@@ -2,7 +2,6 @@
 TextDetection\Project.py:32: [C0301(line-too-long), ] Line too long (102/100)
 TextDetection\Project.py:37: [C0301(line-too-long), ] Line too long (103/100)
 TextDetection\Project.py:53: [C0301(line-too-long), ] Line too long (101/100)
-TextDetection\Project.py:71: [C0301(line-too-long), ] Line too long (122/100)
 TextDetection\Project.py:1: [C0103(invalid-name), ] Module name "Project" doesn't conform to snake_case naming style
 TextDetection\Project.py:1: [C0114(missing-module-docstring), ] Missing module docstring
 TextDetection\Project.py:5: [C0103(invalid-name), ] Constant name "cap" doesn't conform to UPPER_CASE naming style
@@ -31,6 +30,7 @@ TextDetection\Project.py:57: [E1101(no-member), detectText] Module 'cv2' has no 
 TextDetection\Project.py:57: [E1101(no-member), detectText] Module 'cv2' has no 'CHAIN_APPROX_SIMPLE' member
 TextDetection\Project.py:62: [E1101(no-member), detectText] Module 'cv2' has no 'boundingRect' member
 TextDetection\Project.py:63: [C0103(invalid-name), detectText] Variable name "ar" doesn't conform to snake_case naming style
+TextDetection\Project.py:69: [C0103(invalid-name), detectText] Variable name "r" doesn't conform to snake_case naming style
 TextDetection\Project.py:71: [E1101(no-member), detectText] Module 'cv2' has no 'rectangle' member
 TextDetection\Project.py:73: [E1101(no-member), detectText] Module 'cv2' has no 'imshow' member
 TextDetection\Project.py:88: [E1101(no-member), ] Module 'cv2' has no 'waitKey' member
