@@ -1,0 +1,43 @@
+************* Module Project
+TextDetection\Project.py:32: [C0301(line-too-long), ] Line too long (102/100)
+TextDetection\Project.py:37: [C0301(line-too-long), ] Line too long (103/100)
+TextDetection\Project.py:53: [C0301(line-too-long), ] Line too long (101/100)
+TextDetection\Project.py:71: [C0301(line-too-long), ] Line too long (122/100)
+TextDetection\Project.py:1: [C0103(invalid-name), ] Module name "Project" doesn't conform to snake_case naming style
+TextDetection\Project.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+TextDetection\Project.py:5: [C0103(invalid-name), ] Constant name "cap" doesn't conform to UPPER_CASE naming style
+TextDetection\Project.py:5: [E1101(no-member), ] Module 'cv2' has no 'VideoCapture' member
+TextDetection\Project.py:7: [C0103(invalid-name), ] Constant name "fps" doesn't conform to UPPER_CASE naming style
+TextDetection\Project.py:7: [E1101(no-member), ] Module 'cv2' has no 'CAP_PROP_FPS' member
+TextDetection\Project.py:13: [C0103(invalid-name), detectText] Function name "detectText" doesn't conform to snake_case naming style
+TextDetection\Project.py:13: [C0116(missing-function-docstring), detectText] Missing function or method docstring
+TextDetection\Project.py:60: [W0622(redefined-builtin), detectText] Redefining built-in 'list'
+TextDetection\Project.py:40: [E1101(no-member), detectText] Module 'cv2' has no 'cvtColor' member
+TextDetection\Project.py:40: [E1101(no-member), detectText] Module 'cv2' has no 'COLOR_BGR2GRAY' member
+TextDetection\Project.py:43: [E1101(no-member), detectText] Module 'cv2' has no 'normalize' member
+TextDetection\Project.py:43: [E1101(no-member), detectText] Module 'cv2' has no 'NORM_MINMAX' member
+TextDetection\Project.py:46: [E1101(no-member), detectText] Module 'cv2' has no 'Sobel' member
+TextDetection\Project.py:46: [E1101(no-member), detectText] Module 'cv2' has no 'CV_8U' member
+TextDetection\Project.py:49: [E1101(no-member), detectText] Module 'cv2' has no 'threshold' member
+TextDetection\Project.py:49: [E1101(no-member), detectText] Module 'cv2' has no 'THRESH_BINARY' member
+TextDetection\Project.py:52: [E1101(no-member), detectText] Module 'cv2' has no 'getStructuringElement' member
+TextDetection\Project.py:52: [E1101(no-member), detectText] Module 'cv2' has no 'MORPH_ELLIPSE' member
+TextDetection\Project.py:53: [E1101(no-member), detectText] Module 'cv2' has no 'morphologyEx' member
+TextDetection\Project.py:53: [E1101(no-member), detectText] Module 'cv2' has no 'MORPH_DILATE' member
+TextDetection\Project.py:54: [E1101(no-member), detectText] Module 'cv2' has no 'BORDER_REFLECT' member
+TextDetection\Project.py:55: [E1101(no-member), detectText] Module 'cv2' has no 'imshow' member
+TextDetection\Project.py:57: [E1101(no-member), detectText] Module 'cv2' has no 'findContours' member
+TextDetection\Project.py:57: [E1101(no-member), detectText] Module 'cv2' has no 'RETR_EXTERNAL' member
+TextDetection\Project.py:57: [E1101(no-member), detectText] Module 'cv2' has no 'CHAIN_APPROX_SIMPLE' member
+TextDetection\Project.py:62: [E1101(no-member), detectText] Module 'cv2' has no 'boundingRect' member
+TextDetection\Project.py:63: [C0103(invalid-name), detectText] Variable name "ar" doesn't conform to snake_case naming style
+TextDetection\Project.py:71: [E1101(no-member), detectText] Module 'cv2' has no 'rectangle' member
+TextDetection\Project.py:73: [E1101(no-member), detectText] Module 'cv2' has no 'imshow' member
+TextDetection\Project.py:88: [E1101(no-member), ] Module 'cv2' has no 'waitKey' member
+TextDetection\Project.py:2: [W0611(unused-import), ] Unused numpy imported as np
+
+----------------------------------------------------------------------
+
+Your code has been rated at -30.00/10 (previous run: -30.00/10, +0.00)
+
+

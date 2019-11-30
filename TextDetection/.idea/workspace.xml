@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48a9965e-14b6-44d5-9be0-b32689fce885" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.scannerwork/pylint/0.out" beforeDir="false" afterPath="$PROJECT_DIR$/../.scannerwork/pylint/0.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.scannerwork/report-task.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../.scannerwork/report-task.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -175,7 +173,7 @@
       <workItem from="1574479628436" duration="11556000" />
       <workItem from="1574501808776" duration="1305000" />
       <workItem from="1574513255885" duration="1680000" />
-      <workItem from="1575073455571" duration="2232000" />
+      <workItem from="1575073455571" duration="2764000" />
     </task>
     <servers />
   </component>

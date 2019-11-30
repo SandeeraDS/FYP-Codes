@@ -66,9 +66,9 @@ def detectText(image):
         if ar >= 2.7 and brect[2] >= 40 and 22 <= brect[3] <= 60:  # 2->w 3->h
             list.append(brect)
 
-    for element in list:
+    for r in list:
         # draw region of interest
-        cv2.rectangle(image, (element[0], element[1]), (element[0] + element[2], element[1] + element[3]), (250, 0, 0), 2)
+        cv2.rectangle(image, (r[0], r[1]), (r[0] + r[2], r[1] + r[3]), (250, 0, 0), 2)
 
     cv2.imshow('frame', image)
     # cv2.imshow('frame2', img_dilate)
