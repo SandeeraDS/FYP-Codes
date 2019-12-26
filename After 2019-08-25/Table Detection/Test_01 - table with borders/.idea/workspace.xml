@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0f67f0a-66ca-48ae-9825-9696df2d0019" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Test_02- table without borders/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Test_02- table without borders/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Test_02- table without borders/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Test_02- table without borders/Project.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Test_02- table without borders/Project.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../python_string/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../python_string/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../OCR Tests/ocr_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OCR Tests/ocr_1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../TextDetection/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TextDetection/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +20,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
+  <component name="JupyterTrust" id="8c147f84-0251-46c2-9969-b444c9978a78" />
   <component name="ProjectId" id="1SPEAzAwR6pyBswOmHwlBr3nYK4" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
