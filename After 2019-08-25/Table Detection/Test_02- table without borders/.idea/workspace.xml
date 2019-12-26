@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0f67f0a-66ca-48ae-9825-9696df2d0019" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Test_01 - table with borders/a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test_01 - table with borders/b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Test_01 - table with borders/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Test_01 - table with borders/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Test_01 - table with borders/Project.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Test_01 - table with borders/Project.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python_string/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../python_string/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OCR Tests/ocr_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OCR Tests/ocr_1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TextDetection/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TextDetection/.idea/workspace.xml" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,25 +30,18 @@
   </component>
   <component name="ProjectId" id="1SNRbulooaxauInDgcBTlnxl2h1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Note Generation for Online Lecture Video(FYP)/Video_Analysis" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Test_01 - table with borders" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Python.Project">
     <configuration name="Project" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -97,6 +95,18 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -118,6 +128,8 @@
       <workItem from="1571452594886" duration="7452000" />
       <workItem from="1574564890073" duration="1306000" />
       <workItem from="1574581996502" duration="1215000" />
+      <workItem from="1576384406504" duration="3549000" />
+      <workItem from="1577318811955" duration="12129000" />
     </task>
     <servers />
   </component>
@@ -137,8 +149,30 @@
       </map>
     </option>
   </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1577330985656">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1577330985656" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1577330428918">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577330428918" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1577330428917">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1577330428917" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1577330428917">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1577330428917" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1577330428918">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1577330428918" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Test_02__table_without_borders$Project.coverage" NAME="Project Coverage Results" MODIFIED="1574564997134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Test_02__table_without_borders$Project.coverage" NAME="Project Coverage Results" MODIFIED="1577330428904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Test_01$VideoFrames.coverage" NAME="VideoFrames Coverage Results" MODIFIED="1567616641219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../../video into frames/Split frames in a Video" />
     <SUITE FILE_PATH="coverage/Test_01$Project.coverage" NAME="Project Coverage Results" MODIFIED="1567617858531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>

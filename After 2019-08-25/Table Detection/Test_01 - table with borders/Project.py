@@ -2,8 +2,8 @@ import cv2
 import numpy as np
 
 # img = cv2.imread("01.jpg")
-# img = cv2.imread("07.jpg")
-img = cv2.imread("06.jpg")
+img = cv2.imread("b.jpg")
+# img = cv2.imread("06.jpg")
 img2 = img.copy()
 height, width,x = img.shape
 img_empty = np.zeros([height, width], dtype=np.uint8)
